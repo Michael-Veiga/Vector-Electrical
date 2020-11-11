@@ -67,3 +67,13 @@
   background-image: url(./images/webb.png);
 }
 
+.abCardHeader {
+  border: 1.5px solid   rgb(218,165,32);
+  color: rgb(148, 10, 10);
+  font-size: large;
+}
+
+.abCardBody {
+  border: 1.5px solid rgb(218,165,32);
+ 
+}

@@ -1,9 +1,12 @@
 import React from 'react';
+import {Container} from 'react-bootstrap';
+
+import ServicesContent from '../components/ServiesContent'
 
 function Services() {
     return(
         <div>
-            <h1>Services Page</h1>
+            <ServicesContent/>
         </div>
     )
 }
