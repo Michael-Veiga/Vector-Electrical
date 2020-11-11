@@ -24,10 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +32,38 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  border-top: 3px solid 	rgb(218,165,32);
+  border-bottom: 3px solid 	rgb(218,165,32);
+}
+
+.navLink {
+  font-weight: bold;
+  color: rgb(148, 10, 10);
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.navLink:hover {
+  transition: all 0.2 ease-in-out;
+  transform: scale(1.1);
+  color:  rgb(148, 10, 10);
+}
+
+.divider {
+  margin: 0;
+  padding-top: 6px;
+  padding-bottom: 0px;
+  font-weight: bold;
+  color: rgb(218,165,32)
+}
+
+.logo {
+  height: 12rem;
+}
+
+.jumbo {
+  background-image: url(./images/webb.png);
+}
+
