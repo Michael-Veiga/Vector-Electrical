@@ -5,27 +5,36 @@ class ServicesRes extends React.Component {
     constructor(props) {
         super(props);
         this.state={
-            visibility: true
+            display: true
         };
 
         this.toggleDisplay = this.toggleDisplay.bind(this);
     }
     toggleDisplay() {
-        this.setState(state => ({
-            display: !state.display
-        }));
+        this.setState({
+            display: !this.state.display
+        });
     }
 
     render() {
-        return(
-                <Card className="">
+        if (this.state.display) {
+        return (
+                <Card className="svcCard">
                 <Card.Header className="svcCardHeader">Residential Services</Card.Header>
                 <Card.Body className="svcCardBody d-flex flex-column">
-                    <Card.Text>Vector Electrical and Controls Corporation has a long reputation of designing/building first quality electrical systems for the residential market. Our customers and other contractors alike are constantly taken by our attention to detail and innovative approach towards all that we do. We hope that you can put us to the test and experience first hand what the Vector experience means.
+                    <Card.Text className="mb-0">Vector Electrical and Controls Corporation has a long reputation of designing/building first quality electrical systems for the residential market. Our customers and other contractors alike are constantly taken by our attention to detail and innovative approach towards all that we do. We hope that you can put us to the test and experience first hand what the Vector experience means.
                     Included is list of some of our many services designed for the residential market. If you can't find what your looking for, not to worry, we do it all and are just a phone call away.</Card.Text>
-                <button className="customBtn" onClick={this.toggleDisplay}>List of Residential Services</button>
-                {this.state.display && 
-                    <ListGroup className="list-group-flush">
+                    <button className="customBtn mt-4" onClick={this.toggleDisplay}>List of Residential Services</button>
+                </Card.Body>
+                
+                </Card>
+            );
+            } else {
+            return (
+                <Card className="svcCard">
+                <Card.Header className="svcCardHeader">Residential Services</Card.Header>
+                <Card.Body className="svcCardBody d-flex flex-column">
+                    <ListGroup className="listG list-group-flush">
                         <ListGroup.Item>Air conditioning wiring</ListGroup.Item>
                         <ListGroup.Item>Audio & video cabling</ListGroup.Item>
                         <ListGroup.Item>Automatic emergency generator systems installation</ListGroup.Item>
@@ -57,10 +66,11 @@ class ServicesRes extends React.Component {
                         <ListGroup.Item>Cable TV wiring</ListGroup.Item>
                         <ListGroup.Item>Phone wiring</ListGroup.Item>
                     </ListGroup>
-                }
-                </Card.Body>
+                    <button className="customBtn mt-2" onClick={this.toggleDisplay}>List of Residential Services</button>
+                    </Card.Body>
                 </Card>
-        )     
+                    );
+                }
     }
 }
 

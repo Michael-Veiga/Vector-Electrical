@@ -88,7 +88,20 @@
 
 .svcCardBody {
   border: 1.5px solid rgb(218,165,32);
- 
+  max-height: 27rem;
+  min-height: 27rem;
+}
+
+.svcCard {
+  max-height: 30.4rem;
+  min-height: 30.4rem;
+  
+}
+
+.listG {
+  min-height: 22rem;
+  max-height: 22rem;
+  overflow:scroll;
 }
 
 .customBtn {
