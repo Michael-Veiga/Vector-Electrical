@@ -129,3 +129,12 @@
 .prodTitle {
   color: rgb(148, 10, 10);
 }
+
+.card-link {
+  color: rgb(218,165,32);
+  text-decoration: italics;
+}
+
+.card-link:hover {
+  color: rgb(148, 10, 10);
+}
