@@ -12,17 +12,14 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import JumboImg from './components/JumboImg';
 
 function App() {
   return (
     <div className="App">
       <Router basename="/vector-electrical">
-          <Jumbotron className="jumbo pt-3 pb-4 mb-0" style={{backgroundColor: "white"}}>
-            <Container>
-              <img className="logo" src={vector} />
-            </Container>
-          </Jumbotron>
+        <JumboImg/>
           <Nav className="nav justify-content-center" activeKey="/">
             <Nav.Item>
               <Nav.Link className="navLink" as={Link} to="/">Home</Nav.Link>

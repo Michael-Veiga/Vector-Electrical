@@ -5,7 +5,7 @@ function Footer() {
     return (
       <footer className="mt-5">
         <Container fluid={true} >
-          <Row className="foot-effect p-3">
+          <Row className="foot-effect p-1">
             <Col className="p-0 d-flex justify-content-end">
               Vector Electrical & Controls Corp.™
             </Col>
