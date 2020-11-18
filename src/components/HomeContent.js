@@ -3,7 +3,7 @@ import {Table, Container} from 'react-bootstrap';
 
 function HomeContent() {
     return(
-        <Container className="justify-content-center">
+        <Container className="justify-content-center" style={{backgroundColor: "#e1e2e4"}}>
             <h1 className="display-4 mt-3" style={{color: "#7b8186"}}>Welcome to Vector Electrical and Controls</h1>
             <hr style={{borderColor: "#d2d4d6"}}/>
             <p>We know that you have a choice of electrical contractors in the area and we appreciate your consideration. Our hope is that you'll feel confident in our ability to meet all of your expectations and know that our customers are always our number one focus.</p>

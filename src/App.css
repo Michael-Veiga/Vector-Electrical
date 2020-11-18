@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background-color: #f0f1f1;
+  background-color: #b4b7ba;
   overflow: hidden;
 }
 
@@ -28,6 +28,7 @@
 
 .nav {
   background-color: #585c5f;
+  box-shadow: 0 0 13px .25px rgb(95, 2, 2);
   /* border-top: 3px solid 	rgb(218,165,32);
   border-bottom: 3px solid 	rgb(218,165,32); */
 }
@@ -148,6 +149,7 @@
   background:  white;
   background-color: #585c5f;
   color: #f0f1f1;
+  box-shadow: 0 -3px 13px .25px rgb(95, 2, 2);
 }
 
 .listGItem {
