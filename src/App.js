@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Switch, BrowserRouter as Router, Link} from 'react-router-dom';
 
-import {Jumbotron, Container, Nav} from 'react-bootstrap';
+import {Jumbotron, Container, Nav, Row} from 'react-bootstrap';
 
 import vector from './images/vectorTor.png'
 import './App.css';
@@ -19,7 +19,11 @@ function App() {
   return (
     <div className="App">
       <Router basename="/vector-electrical">
-        <JumboImg/>
+        <Jumbotron fluid className="jumbo pt-3 pb-4 mb-0">
+            <Container className="">
+              <img className="logo" src={vector}/>
+            </Container>
+        </Jumbotron>
           <Nav className="nav justify-content-center" activeKey="/">
             <Nav.Item>
               <Nav.Link className="navLink" as={Link} to="/">Home</Nav.Link>

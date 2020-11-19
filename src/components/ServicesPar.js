@@ -7,7 +7,7 @@ import plc from '../images/plcControl.jpg'
 function ServicesPar() {
     return(
         <div>
-            <Card className="mx-auto my-3" style={{border: "1.5px solid #6a6e73", backgroundColor: "#e1e2e4"}}>
+            <Card className="shadow mx-auto my-4" style={{border: "1.5px solid #6a6e73", backgroundColor: "#e1e2e4"}}>
                 <Row className="no-gutters">
                     <Col md={3}>
                         <Card.Img variant="card-img" className="parCard" src={gen}/>
@@ -22,7 +22,7 @@ function ServicesPar() {
                     </Col>
                 </Row>
             </Card>
-            <Card className="mx-auto" style={{border: "1.5px solid #6a6e73", backgroundColor: "#e1e2e4"}}>
+            <Card className="shadow mx-auto" style={{border: "1.5px solid #6a6e73", backgroundColor: "#e1e2e4"}}>
                 <Row className="no-gutters">
                     <Col md={3}>
                         <Card.Img variant="card-img" className="parCard" src={plc}/>

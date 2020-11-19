@@ -11,6 +11,7 @@ import homeBgd from '../images/homeBgd.jpg';
 import pwrLine from '../images/pwrLine.jpg';
 import vctAbt from '../images/vectorServices.jpg';
 import vctSvc from '../images/services.jpg';
+import gold from '../images/goldFoil.jpg';
 
 
 
@@ -23,9 +24,10 @@ function JumboImg() {
         console.log(localPath);
         if (localPath === "/") {
             jumboStyle = {
-                backgroundColor: "white",
+                backgroundColor: "#DAA520",
                 backgroundImage: `url(${pwrLine})`,
-                backgroundPosition: "center"
+                backgroundPosition: "center",
+                backgroundSize: "cover"
             }
         } else if (localPath === "/about") {
             jumboStyle = {

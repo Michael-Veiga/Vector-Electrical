@@ -19,8 +19,8 @@ class ServicesRes extends React.Component {
     render() {
         if (this.state.display) {
         return (
-                <Card className="svcCard border-0">
-                <Card.Header className="svcCardHeader" style={{backgroundColor: "#a2a5a9"}}>Residential Services</Card.Header>
+                <Card className="svcCard shadow border-0">
+                <Card.Header className="svcCardHeader" style={{backgroundColor: "#8f9397"}}>Residential Services</Card.Header>
                 <Card.Body className="svcCardBody d-flex flex-column">
                     <Card.Text className="mb-0">Vector Electrical and Controls Corporation has a long reputation of designing/building first quality electrical systems for the residential market. Our customers and other contractors alike are constantly taken by our attention to detail and innovative approach towards all that we do. We hope that you can put us to the test and experience first hand what the Vector experience means.
                     Included is list of some of our many services designed for the residential market. If you can't find what your looking for, not to worry, we do it all and are just a phone call away.</Card.Text>
@@ -31,8 +31,8 @@ class ServicesRes extends React.Component {
             );
             } else {
             return (
-                <Card className="svcCard border-0">
-                <Card.Header className="svcCardHeader" style={{backgroundColor: "#a2a5a9"}}>Residential Services</Card.Header>
+                <Card className="svcCard shadow border-0">
+                <Card.Header className="svcCardHeader" style={{backgroundColor: "#8f9397"}}>Residential Services</Card.Header>
                 <Card.Body className="svcCardBody d-flex flex-column">
                     <ListGroup className="listG list-group-flush">
                         <ListGroup.Item style={{backgroundColor: "#e1e2e4"}}>Air conditioning wiring</ListGroup.Item>
