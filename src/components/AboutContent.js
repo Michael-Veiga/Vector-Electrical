@@ -5,7 +5,7 @@ function AboutContent() {
     return(
         <Container className="justify-content-center mt-4">
             <Card className="shadow mx-auto border-0">
-                <Card.Header className="abCardHeader" style={{backgroundColor: "#8f9397"}}>About Vector Electrical</Card.Header>
+                <Card.Header className="abCardTitle" style={{backgroundColor: "#8f9397"}}>About Vector Electrical</Card.Header>
                 <Card.Body className="abCardBody">
                     <p>Vector Electrical and Controls Corporation was established in 1989 finding a niche in the industrial automation market. We now specialize in all aspects of electrical construction from residential, commercial to industrial. Vector Electrical and Controls Corporation is your one stop solution for all electrical needs. Visit our services link for a detailed description of services.</p>
                     <p>Pride in service and quality is our cornerstone. Our service and support is second to none. Our electricians are the most highly trained in the industry clocking 100 hours of continuing education, per year, in an ever changing industry. If it's existing technology or a new and recent innovation, you can count on Vector to deliver top notch service and support.</p>

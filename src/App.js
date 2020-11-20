@@ -3,7 +3,8 @@ import {Route, Switch, BrowserRouter as Router, Link} from 'react-router-dom';
 
 import {Jumbotron, Container, Nav, Row} from 'react-bootstrap';
 
-import vector from './images/vectorTor.png'
+import vector from './images/vectorTor.png';
+import lightning from './images/lightning.png'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -20,8 +21,8 @@ function App() {
     <div className="App">
       <Router basename="/vector-electrical">
         <Jumbotron fluid className="jumbo pt-3 pb-4 mb-0">
-            <Container className="">
-              <img className="logo" src={vector}/>
+            <Container className="logoBg">                     
+              <img className="logo" src={vector}/>            
             </Container>
         </Jumbotron>
           <Nav className="nav justify-content-center" activeKey="/">
