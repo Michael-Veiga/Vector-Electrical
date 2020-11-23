@@ -1,9 +1,12 @@
 import React from 'react';
+import ContactContent from '../components/ContactContent';
+import Footer from '../components/Footer';
 
 function Contact() {
     return(
         <div>
-            <h1>Contact Page</h1>
+            <ContactContent />
+            <Footer />
         </div>
     )
 }
