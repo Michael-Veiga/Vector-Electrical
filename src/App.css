@@ -1,9 +1,13 @@
 @import '~bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
 
 .App {
   text-align: center;
-  background-color: #b4b7ba;
+  /* background-color: #b4b7ba; */
+  background: linear-gradient(90deg, RGB(39,58,66) 0%, #b4b7ba 25%,  RGB(39,58,66) 50%,  #b4b7ba 75%, RGB(39,58,66) 100%);
   overflow: hidden;
+  font-family: 'Castoro', serif;
 }
 
 .App-logo {
@@ -51,36 +55,222 @@
   padding-top: 6px;
   padding-bottom: 0px;
   font-weight: bold;
-  color: #DAA520;
+  color: #bfa552;
 }
 
 .logo {
-  height: 12rem;
-  text-shadow: 0 0 13px .25px #DAA520;
+  height: 10rem;
+}
+
+.logoTwo {
+  color: #bfa552;
+  letter-spacing: 2;
+  text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
+    -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
+    0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #bfa552;
+    text-shadow: none;
+  }
+  50% {
+    
+  }
+  100% {
+    color: #fffde6;
+    text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
+    -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
+    0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fastFlicker {
+  animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #fffde6;
+    text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
+    -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
+    0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
+  }
+  28%,
+  33% {
+    color: #bfa552;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #a18d48;
+    text-shadow: none;
+  }
 }
 
 .cntCardHeader {
   border: 1.5px solid #6a6e73;
   color: #fbfbfb;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 500
 }
 
 .cForm {
-  border: 1.5px solid #6a6e73;
+  border: 2px solid #bfa552;
   border-radius: .25rem .25rem .25rem .25rem;
-  background-color: #e1e2e4;
+  background-color: #fcfbf7;
+}
+
+.cFormTitle {
+  color: #bfa552;
+  font-weight: 500;
 }
 
 .cntCardBody {
   border: 1.5px solid #6a6e73;
-  background-color: #e1e2e4;
+  background-color: #fcfbf7;
   border-radius: 0 0 .25rem .25rem;
 }
 
 .abCardTitle {
-  border: 1.5px solid #6a6e73;
-  color: #fbfbfb;
+  border: 2px solid #bfa552;
+  color: #bfa552;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -93,30 +283,30 @@
 }
 
 .abCardBody {
-  border: 1.5px solid #6a6e73;
-  background-color: #e1e2e4;
+  border: 2px solid #bfa552;
+  background-color:#fcfbf7;
   border-radius: 0 0 .25rem .25rem;
 }
 
 .svcCardTitle {
-  border: 1.5px solid #6a6e73;
-  color: #fbfbfb;
+  border: 2px solid #bfa552;
+  color: #bfa552;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
 
 .svcCardHeader {
-  border: 1.5px solid #6a6e73;
-  color: #fbfbfb;
+  border: 2.5px solid #bfa552;
+  color: #bfa552;
   font-size: 1.25rem;
 }
 
 .svcCardBody {
-  border: 1.5px solid #6a6e73;
+  border: 2px solid#bfa552;
   max-height: 27rem;
   min-height: 27rem;
-  background-color: #e1e2e4;
+  background-color: #fcfbf7;
   border-radius: 0 0 .25rem .25rem;
 }
 
@@ -126,9 +316,16 @@
   
 }
 
+.cntCardHeader {
+  border: 2px solid #bfa552;
+  color: #bfa552;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .cntCardBody {
-  border: 1.5px solid #6a6e73;
-  background-color: #e1e2e4;
+  border: 2px solid #bfa552;
+  background-color: #fcfbf7;
   border-radius: 0 0 .25rem .25rem;
 }
 
@@ -139,11 +336,12 @@
 }
 
 .customBtn {
-  color: #fbfbfb;
-  border: 1px solid #585c5f;
-  background-color: #6a6e73;
+  color: rgb(148, 10, 10);
+  border: 2px solid #8c1414;
+  background-color: #bfa552;
   padding: .375rem .75rem;
   font-size: 1rem;
+  font-weight: 500;
   line-height: 1.5;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -162,12 +360,12 @@
 }
 
 .parCardBody {
-  background-color: #e1e2e4;
+  background-color: #fcfbf7;
 }
 
 .prodTitle {
-  color: #6a6e73;
-  background-color: #e1e2e4;
+  color: #bfa552;
+  background-color: #fcfbf7;
 }
 
 .card-link {
@@ -189,7 +387,7 @@
   background:  white;
   background-color: rgb(120,13,13);
   color: #f0f1f1;
-  box-shadow: 0 -3px 13px .25px #DAA520;
+  box-shadow: 0 -3px 13px .25px #bfa552;
 }
 
 .listGItem {
@@ -198,9 +396,27 @@
 
 .jumbo {
   /* background: linear-gradient(-45deg, #e1e2e4, grey, #d2d4d6, #585c5f); */
-  background: linear-gradient(-45deg, #f0f1f1, grey, #d2d4d6, #585c5f);
+  /* background: linear-gradient(-45deg, #f0f1f1, grey, #d2d4d6, #585c5f); */
+  /* background: linear-gradient(-45deg, #e4d9b5, #a68d3d, #d7c894, #bfa552);
 	background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite; */
+  background: url(./images/cStitchBg.png);
+  color: #eee;
+  width: 100%;
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  background-origin: 50% 50%;
+  animation: animation 175s linear infinite;
+  background-size: cover;
+}
+
+@keyframes animation {
+  100%{
+   background-position:0px -3000px;
+ }
 }
 
 .logoBg {
@@ -212,12 +428,16 @@
 }
 
 .homeCont {
-  border: 1.5px solid #6a6e73;
+  border: 2px solid #bfa552;
   border-radius: .25rem .25rem .25rem .25rem;
 }
 
 .imgThumb {
   background-color: #b4b7ba;
+}
+
+.fab {
+  color: #8c1414;
 }
 
 @keyframes gradient {

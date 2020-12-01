@@ -10,6 +10,8 @@ function ContactForm() {
         <div>
             <ToastContainer />
             <Form className="cForm shadow py-3" id="contact-form" style={{margin: '0 auto', width: "100%"}}>
+              <h4 className="cFormTitle text-center">Email Contact Form</h4>
+              <hr className="mx-5" style={{borderTop: "2px solid #8c1414"}}/>
               <Form.Group className="px-5">
                 <Form.Label className="">Full Name</Form.Label>
                 <Form.Control name="name" type="text"/>
@@ -30,9 +32,9 @@ function ContactForm() {
                 <Form.Control name="message" type="textarea" row="3"/>
               </Form.Group>
     
-              <Button className="btn d-inline-block px-5 ml-5" variant="primary" type="submit">
+              <button className="customBtn d-inline-block px-5 ml-5" variant="primary" type="submit">
                 Send Message
-              </Button>
+              </button>
             </Form>
         </div>
     );

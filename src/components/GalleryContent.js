@@ -44,8 +44,8 @@ import vAj from '../images/galleryImgs/vThree.jpg';
 
 function GalleryContent() {
     const galImg = {
-        backgroundColor: "#e1e2e4",
-        border: "1px solid #c4c6c8",
+        backgroundColor: "#fbfbfb",
+        border: "1.5px solid #bfa552",
         marginTop: "1rem"
     }
     return(
