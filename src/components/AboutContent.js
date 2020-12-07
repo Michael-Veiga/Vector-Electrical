@@ -4,15 +4,15 @@ import {Container, Card} from 'react-bootstrap';
 function AboutContent() {
     return(
         <Container className="justify-content-center mt-4">
-            <Card className="shadow mx-auto border-0">
-                <Card.Header className="abCardTitle" style={{backgroundColor: "#8c1414", borderBottom: "1px solid #bfa552"}}>About Vector Electrical</Card.Header>
+            <Card className="abCard mx-auto border-0">
+                <Card.Header className="abCardTitle text-shadow" style={{backgroundColor: "#8c1414", borderBottom: "1px solid #bfa552"}}>About Vector Electrical</Card.Header>
                 <Card.Body className="abCardBody">
                     <p>Vector Electrical and Controls Corporation was established in 1989 finding a niche in the industrial automation market. We now specialize in all aspects of electrical construction from residential, commercial to industrial. Vector Electrical and Controls Corporation is your one stop solution for all electrical needs. Visit our services link for a detailed description of services.</p>
                     <p>Pride in service and quality is our cornerstone. Our service and support is second to none. Our electricians are the most highly trained in the industry clocking 100 hours of continuing education, per year, in an ever changing industry. If it's existing technology or a new and recent innovation, you can count on Vector to deliver top notch service and support.</p>
                     <p>Honesty and integrity are words that we live by every day. You can be confident that our employees will arrive to your site on time, neatly dressed with a fully stocked truck saving you both time and money. We will provide you with a written estimate and deliver the work as estimated and within the estimated budget provided. We will clean up after ourselves and will leave your site cleaner than we found it.</p>
                 </Card.Body>
             </Card>
-            <Card className="abCardBody shadow mx-auto my-4" style={{border: "2px solid #6a6e73", backgroundColor: "#fcfbf7", border: "2px solid #bfa552"}}>
+            <Card className="abCardBody mx-auto my-4" style={{border: "2px solid #bfa552", backgroundColor: "#fcfbf7",}}>
                 <Card.Title className="abTitle mt-3" style={{color: "#bfa552", fontSize: "1.5rem"}}>Testimonials</Card.Title>
                 <hr className="my-0 mx-3" style={{borderTop: "2px solid #8c1414"}}/>
                 <Card.Body className=" text-left">

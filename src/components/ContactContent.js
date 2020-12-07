@@ -9,7 +9,7 @@ import ContactForm from './ContactForm';
 function ContactContent() {
     return (
     <Container className="my-3 py-2">
-          <Card className="mx-auto shadow border-0 mb-3" >
+          <Card className="cntCard mx-auto border-0 mb-3" >
               <Card.Header className="cntCardHeader" style={{backgroundColor: "#8c1414", borderBottom: "1px solid #bfa552"}}>Contact Vector Electrical</Card.Header>
                 <Card.Body className="cntCardBody">
                     <Card.Text>If you'd like additional information or to schedule an appointment, you can reach us via the contact information below.</Card.Text> 

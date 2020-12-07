@@ -46,7 +46,8 @@ function GalleryContent() {
     const galImg = {
         backgroundColor: "#fbfbfb",
         border: "1.5px solid #bfa552",
-        marginTop: "1rem"
+        marginTop: "1rem",
+        
     }
     return(
         <Container fluid={true} className="my-3">

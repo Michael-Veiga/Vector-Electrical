@@ -3,8 +3,8 @@ import {Table, Container} from 'react-bootstrap';
 
 function HomeContent() {
     return(
-        <Container className="homeCont shadow justify-content-center my-4" style={{backgroundColor: "#fcfbf7"}}>
-            <h1 className="display-4 mt-3" style={{color: "#bfa552", fontSize: "3rem", fontWeight: "450"}}>Welcome to Vector Electrical and Controls Corp.</h1>
+        <Container className="homeCont h-100 justify-content-center align-self-center mt-3 mb-2" style={{backgroundColor: "#fcfbf7"}}>
+            <h1 className="display-4 mt-3" style={{color: "#bfa552", fontSize: "3rem", fontWeight: "450", textShadow: "1.5px 1.5px black"}}>Welcome to Vector Electrical and Controls Corp.</h1>
             <hr className="" style={{borderTop: "2px solid #8c1414"}}/>
             <p>We know that you have a choice of electrical contractors in the area and we appreciate your consideration. Our hope is that you'll feel confident in our ability to meet all of your expectations and know that our customers are always our number one focus.</p>
             <p>Please take a moment to browse through our site to learn more about our company and how we can show you the Vector Electrical and Controls difference. If you have any questions or comments, please feel free to contact us. We look forward to hearing from you soon and thank you for your consideration.</p>

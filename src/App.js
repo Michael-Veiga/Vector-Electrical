@@ -20,12 +20,7 @@ function App() {
   return (
     <div className="App">
       <Router basename="/vector-electrical">
-        <Jumbotron fluid className="jumbo pt-3 pb-4 mb-0">
-            <Container className="logoBg pt-3 pb-1">                     
-              <img className="logo p-1" src={vector} />
-              <h2 className="logoTwo"><span className="fastFlicker">BRINGING <span className="flicker">POWER</span> TO THE PEOPLE</span></h2>            
-            </Container>
-        </Jumbotron>
+        <JumboImg/>
           <Nav className="nav justify-content-center" activeKey="/">
             <Nav.Item>
               <Nav.Link className="navLink" as={Link} to="/">Home</Nav.Link>

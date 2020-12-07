@@ -19,18 +19,18 @@ class ServicesInd extends React.Component {
     render() {
         if (this.state.display) {
         return (
-                <Card className="svcCard shadow border-0">
+                <Card className="svcCard h-100 border-0">
                 <Card.Header className="svcCardHeader" style={{backgroundColor: "#8c1414", borderBottom: "1px solid #bfa552"}}>Industrial Services</Card.Header>
                 <Card.Body className="svcCardBody d-flex flex-column">
                     <Card.Text className="mb-0">Vector Electrical and Controls Corporation started out in the industrial market place and quickly became one of the only industrial control company's in the North East. Vector specialized in all types of industrial automation and industrial controls for the manufacturing, pharmaceutical and bio tech industries. Our company focus has expanded to all aspects of the industrial market place from control systems to entire facility build outs. Here's a small sampling of what we can do for you. Give us a try and become a customer for life.</Card.Text>
-                    <button className="customBtn mt-4" onClick={this.toggleDisplay}>List of Industrial Services</button>
+                    <button className="customBtn mt-3" onClick={this.toggleDisplay}>List of Industrial Services</button>
                 </Card.Body>
                 
                 </Card>
             );
             } else {
             return (
-                <Card className="svcCard shadow border-0">
+                <Card className="svcCard h-100 border-0">
                 <Card.Header className="svcCardHeader" style={{backgroundColor: "#8c1414", borderBottom: "1px solid #bfa552"}}>Industrial Services</Card.Header>
                 <Card.Body className="svcCardBody d-flex flex-column">
                     <ListGroup className="listG list-group-flush">

@@ -7,10 +7,10 @@ import plc from '../images/plcControl.jpg'
 function ServicesPar() {
     return(
         <div>
-            <Card className="shadow mx-auto my-4" style={{border: "2px solid #bfa552", backgroundColor: "#fcfbf7"}}>
+            <Card className="parCard mx-auto my-4" style={{border: "2px solid #bfa552", backgroundColor: "#fcfbf7"}}>
                 <Row className="no-gutters">
                     <Col md={3}>
-                        <Card.Img variant="card-img" className="parCard" src={gen}/>
+                        <Card.Img variant="card-img" className="parCardImg" src={gen}/>
                     </Col>
                     <Col md={9}>
                         <Card.Title className="prodTitle mt-3">Generac Generators</Card.Title>
@@ -22,10 +22,10 @@ function ServicesPar() {
                     </Col>
                 </Row>
             </Card>
-            <Card className="shadow mx-auto" style={{border: "2px solid #bfa552", backgroundColor: "#fcfbf7"}}>
+            <Card className="parCard mx-auto" style={{border: "2px solid #bfa552", backgroundColor: "#fcfbf7"}}>
                 <Row className="no-gutters">
                     <Col md={3}>
-                        <Card.Img variant="card-img" className="parCard" src={plc}/>
+                        <Card.Img variant="card-img" className="parCardImg" src={plc}/>
                     </Col>
                     <Col md={9}>
                         <Card.Title className="prodTitle mt-3">Allen Bradley Control Systems</Card.Title>

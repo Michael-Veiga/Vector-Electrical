@@ -1,74 +1,17 @@
-// import React from 'react';
-// import {useLocation} from 'react-router-dom';
-// import {Jumbotron, Container} from 'react-bootstrap';
+import React from 'react';
+import {Jumbotron, Container} from 'react-bootstrap'
 
-// import gen from '../images/generator.jpg'
-// import plc from '../images/plcControl.jpg'
-// import vector from '../images/vectorTor.png'
-// import pattern from '../images/webb.png';
-// import abtBgd from '../images/aboutBgd.jpg';
-// import homeBgd from '../images/homeBgd.jpg';
-// import pwrLine from '../images/pwrLine.jpg';
-// import vctAbt from '../images/vectorServices.jpg';
-// import vctSvc from '../images/services.jpg';
-// import gold from '../images/goldFoil.jpg';
+import vector from '../images/vectorSlim.png';
+function JumboImg () {
+        return (
+            <Jumbotron fluid className="jumbo pt-3 pb-4 mb-0">
+            <Container className="logoBg pt-3 pb-1">                     
+              <img className="logo p-1" src={vector} />
+              <h2 className="logoTwo">BRINGING <span className="flicker">POWER</span> TO THE <span className="fast-flicker">PEOPLE</span></h2>            
+            </Container>
+        </Jumbotron>
+            );
+}
 
+export default JumboImg;
 
-
-// function JumboImg() {
-//     let jumboStyle = {
-//         backgroundColor: "white",
-//     }
-//         let location = useLocation();
-//         let localPath = location.pathname;
-//         console.log(localPath);
-//         if (localPath === "/") {
-//             jumboStyle = {
-//                 backgroundColor: "#DAA520",
-//                 backgroundImage: `url(${pwrLine})`,
-//                 backgroundPosition: "center",
-//                 backgroundSize: "cover"
-//             }
-//         } else if (localPath === "/about") {
-//             jumboStyle = {
-//                 backgroundColor: "white",
-//                 backgroundImage: `url(${vctAbt})`,
-//                 backgroundSize: "cover",
-//                 backgroundRepeat: "no-repeat",
-//                 backgroundPosition: "50% 25%"
-//             }
-//         } else if (localPath === "/services") {
-//             jumboStyle = {
-//                 backgroundColor: "white",
-//                 backgroundImage: `url(${vctSvc})`,
-//                 backgroundSize: "cover",
-//                 backgroundRepeat: "no-repeat",
-//             }
-//         } else if (localPath === "/gallery") {
-//             jumboStyle = {
-//                 backgroundColor: "white",
-//                 backgroundImage: `url(${plc})`
-//             }
-//         } else if (localPath === "/contact") {
-//             jumboStyle = {
-//                 backgroundColor: "white",
-//                 backgroundImage: `url(${plc})`
-//             }
-//         } else {
-//             jumboStyle = {
-//                 backgroundColor: "white",
-//                 backgroundImage: `url(${pattern})`
-//             }
-//         }
-
-//         return(
-//         <Jumbotron className="jumbo pt-3 pb-4 mb-0" style={jumboStyle}>
-//             <Container>
-//               <img className="logo" src={vector}/>
-//             </Container>
-//         </Jumbotron>
-//         )
-    
-// }
-
-// export default JumboImg;

@@ -10,15 +10,12 @@
   font-family: 'Castoro', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  height: 100%
 }
 
 @keyframes App-logo-spin {
@@ -76,9 +73,6 @@
     color: #bfa552;
     text-shadow: none;
   }
-  50% {
-    
-  }
   100% {
     color: #fffde6;
     text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
@@ -88,13 +82,66 @@
 }
 
 .flicker {
-  animation: shine 2s forwards, blink 3s 2s infinite;
+  animation: shine 1.8s forwards, blink 7.5s 1s infinite;
 }
 
-.fastFlicker {
-  animation: shine 2s forwards, blink 10s 1s infinite;
+.fast-flicker {
+  animation: shine 2s forwards, blinkTwo 7.5s 1s infinite;
 }
 
+@keyframes blink {
+  0%, 
+  8.33%,
+  16.66% {
+    color: #bfa552;
+    text-shadow: none;
+  }
+  16.86% {
+    color: #fffde6;
+    text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
+    -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
+    0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
+  }   
+  18% {
+    color: #bfa552;
+    text-shadow: none;
+  }  
+  25%, 
+  33.32%, 
+  41.65%, 
+     50% {
+      color: #fffde6;
+      text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
+      -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
+      0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
+    }   
+}
+
+@keyframes blinkTwo {
+  0%, 
+  8.33%,
+  16.66%, 
+  25%, 
+  33.32%, 
+  41.65%, 
+     50% {
+      color: #fffde6;
+      text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
+      -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
+      0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
+    }   
+  58.31%,
+  66.64% {
+    color: #a18d48;
+    text-shadow: none;
+  }
+    75% {
+      color: #fffde6;
+      text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
+      -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
+      0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
+    }
+}
 @keyframes flicker {
   from {
     opacity: 1;
@@ -221,40 +268,25 @@
   }
 }
 
-
-@keyframes blink {
-  0%,
-  22%,
-  36%,
-  75% {
-    color: #fffde6;
-    text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff065,
-    -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
-    0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
-  }
-  28%,
-  33% {
-    color: #bfa552;
-    text-shadow: none;
-  }
-  82%,
-  97% {
-    color: #a18d48;
-    text-shadow: none;
-  }
+.cntCardHeader {
+  border: 2px solid #bfa552;
+  color: #bfa552;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: 1.5px 1.5px black;
 }
 
-.cntCardHeader {
-  border: 1.5px solid #6a6e73;
-  color: #fbfbfb;
-  font-size: 1.5rem;
-  font-weight: 500
+.cntCard {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
 
 .cForm {
   border: 2px solid #bfa552;
   border-radius: .25rem .25rem .25rem .25rem;
   background-color: #fcfbf7;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
 
 .cFormTitle {
@@ -273,6 +305,7 @@
   color: #bfa552;
   font-size: 1.5rem;
   font-weight: 500;
+  text-shadow: 1.5px 1.5px black;
 }
 
 .abCardHeader {
@@ -282,10 +315,15 @@
   font-weight: 500
 }
 
+.abCard {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
+}
+
 .abCardBody {
   border: 2px solid #bfa552;
   background-color:#fcfbf7;
   border-radius: 0 0 .25rem .25rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
 
 .svcCardTitle {
@@ -293,6 +331,7 @@
   color: #bfa552;
   font-size: 1.5rem;
   font-weight: 500;
+  text-shadow: 1.5px 1.5px black;
 }
 
 
@@ -300,6 +339,7 @@
   border: 2.5px solid #bfa552;
   color: #bfa552;
   font-size: 1.25rem;
+  
 }
 
 .svcCardBody {
@@ -312,15 +352,11 @@
 
 .svcCard {
   max-height: 30.4rem;
-  min-height: 30.4rem;
-  
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
 
-.cntCardHeader {
-  border: 2px solid #bfa552;
-  color: #bfa552;
-  font-size: 1.5rem;
-  font-weight: 500;
+.svcFirstCard {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
 
 .cntCardBody {
@@ -353,10 +389,14 @@
   border-color: #DAA520;
 }
 
-.parCard {
+.parCardImg {
   width: 15rem;
   height: 10rem;
-  background-color: #e1e2e4
+  background-color: #e1e2e4;
+}
+
+.parCard {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
 
 .parCardBody {
@@ -430,6 +470,7 @@
 .homeCont {
   border: 2px solid #bfa552;
   border-radius: .25rem .25rem .25rem .25rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
 
 .imgThumb {
@@ -453,17 +494,17 @@
 }
 
 @keyframes flash {
-  0% {background-image: url(./images/newLte.png)}
-  8.33% {background-image: url(./images/blankLte.png)}
-  16.66% {background-image: url(./images/newLte.png)}
+  0% {background-image: url(./images/blankLte.png)}
+  8.33% {background-image: url(./images/newLte.png)}
+  16.66% {background-image: url(./images/blankLte.png)}
 
-  25% {background-image: url(./images/blankLte.png)}
+  25% {background-image: url(./images/newLte.png)}
   33.32% {background-image: url(./images/blankLte.png)}
   41.65% {background-image: url(./images/blankLte.png)}
 
      50% {background-image: url(./images/blankLte.png)}
-  58.31% {background-image: url(./images/lteFlip.png);}
-  66.64% {background-image: url(./images/blankLte.png)}
+  58.31% {background-image: url(./images/blankLte.png)}
+  66.64% {background-image: url(./images/lteFlip.png);}
 
      75% {background-image: url(./images/blankLte.png)}
    83.3% {background-image: url(./images/blankLte.png)}
