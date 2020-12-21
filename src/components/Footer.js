@@ -9,9 +9,9 @@ function Footer() {
       <footer className="mt-5">
         <Container fluid={true} >
           <Row className="foot-effect p-1">
-            <Col className="p-0 d-flex justify-content-start">
+            <Col className="p-0 d-flex justify-content-start" xs={1}>
               <a href="https://www.facebook.com/vectorelectrical" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faFacebook} style={{height: "1.5em", width:"1.25em"}}/>
+              <FontAwesomeIcon icon={faFacebook} style={{height: "1.5em", width:"1.25em", color: "#bfa552"}}/>
               </a>
             </Col>
             <Col className="p-0 d-flex justify-content-end">

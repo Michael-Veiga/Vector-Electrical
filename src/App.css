@@ -34,6 +34,33 @@ body {
   border-bottom: 3px solid 	rgb(218,165,32); */
 }
 
+@media (max-width:767px) {
+  .nav {
+    font-size: .9rem;
+    
+  }
+}
+
+@media (max-width:480px) {
+  .nav {
+    font-size: .72rem;
+    
+  }
+}
+
+@media (max-width:320px) {
+  .nav {
+    font-size: .5rem;
+    
+  }
+}
+
+@media (max-width:280px) {
+  .nav {
+    font-size: .4rem;
+  }
+}
+
 .navLink {
   font-weight: bold;
   color: #f0f1f1;
@@ -44,7 +71,9 @@ body {
 .navLink:hover {
   transition: all 0.2 ease-in-out;
   transform: scale(1.1);
-  color:  #fbfbfb;
+  color: #f0f1f1;
+  border-bottom: 2px solid #bfa552;
+  /* border-top: 2px solid #bfa552; */
 }
 
 .divider {
@@ -57,6 +86,85 @@ body {
 
 .logo {
   height: 10rem;
+  width: 41rem;
+  max-width: 41rem;
+}
+
+@media (max-width:1920px) {
+  .logo {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:1351px) {
+  .logo {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:1350px) {
+  .logo {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:1024px) {
+  .logo {
+    max-width: 100%;
+    height: 90%;
+  }
+}
+
+@media (max-width:992px) {
+  .logo {
+    max-width: 90%;
+    height: 85%;
+  }
+}
+
+@media (max-width:768px) {
+  .logo {
+    max-width: 85%;
+    height: 85%;
+  }
+}
+
+@media (max-width:767px) {
+  .logo {
+      max-width: 80%;
+      height: 85%;
+  }
+}
+
+@media (max-width:480px) {
+  .logo {
+    max-width: 100%;
+    height: 90%;
+  }
+}
+
+@media (max-width:375px) {
+  .logo {
+    max-width: 95%;
+    height: 90%;
+  }
+}
+
+@media (max-width:320px) {
+  .logo {
+    max-width: 90%;
+    height: 85%;
+  }
+}
+
+@media (max-width:320px) {
+  .logo {
+    max-width: 100%;
+    height: 85%;
+  }
 }
 
 .logoTwo {
@@ -66,6 +174,60 @@ body {
     -0.2rem 0.1rem 1rem #fcff65, 0.2rem 0.1rem 1rem #fffc65,
     0 -0.5rem 2rem #fbff24, 0 0.5rem 3rem #fffb24;
   animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@media (max-width:1201px) {
+  .logoTwo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:1024px) {
+  .logoTwo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .logoTwo {
+      font-size: 2rem;
+  }
+}
+
+@media (max-width:767px) {
+  .logoTwo {
+      font-size: 1.75rem;
+  }
+}
+
+@media (max-width:540px) {
+  .logoTwo {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width:480px) {
+  .logoTwo {
+      font-size: 1.35rem;
+  }
+}
+
+@media (max-width:375px) {
+  .logoTwo {
+      font-size: 1.15rem;
+  }
+}
+
+@media (max-width:320px) {
+  .logoTwo {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width:280px) {
+  .logoTwo {
+      font-size: .8rem;
+  }
 }
 
 @keyframes shine {
@@ -350,14 +512,45 @@ body {
   border-radius: 0 0 .25rem .25rem;
 }
 
+@media (max-width:375px) {
+  .svcCardBody {
+  max-height: 34rem;
+  min-height: 34rem;
+  }
+}
+
+@media (max-width:280px) {
+  .svcCardBody {
+    max-height: 40rem;
+    min-height: 40rem;
+  }
+}
+
+
 .svcCard {
-  max-height: 30.4rem;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
+}
+
+.svcQueryCard {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
+}
+
+@media (max-width:1199px) {
+  .colQuery {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width:992px) {
+  .colQuery {
+    margin-top: 1.5rem;
+  }
 }
 
 .svcFirstCard {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.623) !important;
 }
+  
 
 .cntCardBody {
   border: 2px solid #bfa552;
@@ -366,8 +559,8 @@ body {
 }
 
 .listG {
-  min-height: 22rem;
-  max-height: 22rem;
+  min-height: 21rem;
+  max-height: 21rem;
   overflow:scroll;
 }
 
@@ -451,7 +644,97 @@ body {
   background-origin: 50% 50%;
   animation: animation 175s linear infinite;
   background-size: cover;
+  overflow: hidden;
 }
+
+@media (max-width:1920px) {
+  .jumbo {
+    height: 28vh;
+  }
+}
+
+@media (max-width:1351px) {
+  .jumbo {
+    height: 26vh;
+  }
+}
+
+@media (max-width:1350px) {
+  .jumbo {
+    height: 26vh;
+  }
+}
+
+@media (max-width:1201px) {
+  .jumbo {
+    height: 28vh;
+  }
+}
+
+@media (max-width:1024px) {
+  .jumbo {
+    height: 27vh;
+  }
+}
+
+@media (max-width:992px) {
+  .jumbo {
+    height: 27vh;
+  }
+}
+
+@media (max-width:768px) {
+  .jumbo {
+    height: 25vh;
+  }
+}
+
+@media (max-width:767px) {
+  .jumbo {
+    height: 23vh;
+  }
+}
+
+@media (max-width:540px) {
+  .jumbo {
+    height: 21vh; 
+  }
+}
+
+@media (max-width:480px) {
+  .jumbo {
+    height: 20vh;
+  }
+}
+
+@media (max-width:479px) {
+  .jumbo {
+    height: 18vh;
+    
+  }
+}
+
+@media (max-width:375px) {
+  .jumbo {
+    height: 18vh; 
+  }
+}
+
+@media (max-width:320px) {
+  .jumbo {
+    height: 15vh; 
+  }
+}
+
+@media (max-width:280px) {
+  .jumbo {
+    height: 14vh; 
+  }
+}
+
+
+
+
 
 @keyframes animation {
   100%{
@@ -462,9 +745,51 @@ body {
 .logoBg {
   /* background-image: url(./images/lte.png); */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: inherit;
   background-position: 50% 75%;
   animation: flash 7.5s linear infinite; 
+}
+
+@media (max-width:1920px) {
+  .logoBg {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width:1351px) {
+  .logoBg {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width:1350px) {
+  .logoBg {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width:1024px) {
+  .logoBg {
+    padding-top: 1.5rem;
+    padding-bottom: null;
+  }
+}
+
+@media (max-width:992px) {
+  .logoBg {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .logoBg {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 .homeCont {

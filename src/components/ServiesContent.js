@@ -15,14 +15,14 @@ function ServicesContent() {
             <p>Vector Electrical and Controls Corporation strives to be your full service electrical contractor. Whether its at home, at the office, or your industrial establishment, you can count on Vector to get it done right the first time and within budget. Give us a call and become a customer for life. Please find links below to our partner sites should they be of any specific interest. Thanks so much for visiting our site.</p>
                 </Card.Body>
             </Card>
-                <Row className="align-items-stretch my-4">
-                    <Col md={4} sm={10} xs={12}>
+                <Row className="justify-content-around my-4">
+                    <Col xl={4} lg={12} md={12} sm={12} xs={12}>
                     <ServicesRes />
                     </Col>
-                    <Col md={4} sm={10} xs={12}>
+                    <Col className="colQuery" xl={4} lg={12} md={12} sm={12} xs={12}>
                     <ServicesCom />
                     </Col>
-                    <Col md={4} sm={10} xs={12}>
+                    <Col className="colQuery" xl={4} lg={12} md={12} sm={12} xs={12}>
                     <ServicesInd />
                     </Col>
                 </Row>

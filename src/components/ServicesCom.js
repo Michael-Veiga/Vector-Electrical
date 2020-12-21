@@ -19,17 +19,17 @@ class ServicesCom extends React.Component {
     render() {
         if (this.state.display) {
         return (
-                <Card className="svcCard h-100 border-0">
+                <Card className="svcQueryCard h-100 border-0">
                 <Card.Header className="svcCardHeader" style={{backgroundColor: "#8c1414", borderBottom: "1px solid #bfa552"}}>Commercial Services</Card.Header>
                 <Card.Body className="svcCardBody d-flex flex-column">
                     <Card.Text className="mb-0">Vector Electrical and Controls Corporation is in the forefront of design build applications for the commercial and light industrial markets. From Store fronts to data centers, Vector has the know how to get it done on time and on budget. With over thirty years of experience, there isn't much we havent done. From mom and pop shops to multi conglomerate corporations, let us show you how vector electrical is bringing power to the people. Give us try and you will be a customer for life. This is a small sampling of the services that we can provide you.</Card.Text>
-                    <button className="customBtn mt-3" onClick={this.toggleDisplay}>List of Commercial Services</button>
+                    <button className="customBtn mt-2" onClick={this.toggleDisplay}>List of Commercial Services</button>
                 </Card.Body>
                 </Card>
             );
             } else {
             return (
-                <Card className="svcCard h-100 border-0">
+                <Card className="svcQueryCard h-100 border-0">
                 <Card.Header className="svcCardHeader" style={{backgroundColor: "#8c1414", borderBottom: "1px solid #bfa552"}}>Commercial Services</Card.Header>
                 <Card.Body className="svcCardBody d-flex flex-column">
                     <ListGroup className="listG list-group-flush">
