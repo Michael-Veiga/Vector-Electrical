@@ -7,7 +7,7 @@ function JumboImg() {
     <Jumbotron fluid={true} className="jumbo mb-0 py-0">
       <Container className="logoBg" fluid={true}>
         <div className="centerLogo">
-          <img className="logo" src={vector} />
+          <img className="logo" src={vector} alt="Vector Logo" />
           <h2 className="logoTwo">
             BRINGING <span className="flicker">POWER</span> TO THE{' '}
             <span className="fast-flicker">PEOPLE</span>

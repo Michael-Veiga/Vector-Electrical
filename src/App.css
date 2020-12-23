@@ -569,6 +569,15 @@ body {
   overflow: scroll;
 }
 
+.exitBtn {
+  color: rgb(148, 10, 10);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  background-color: transparent;
+}
+
 .customBtn {
   color: rgb(148, 10, 10);
   border: 2px solid #8c1414;

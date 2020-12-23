@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Col, Row, Image, Modal, Carousel } from 'react-bootstrap';
+import { Container, Col, Row, Image, Modal } from 'react-bootstrap';
 // import modalData from '../data/modals.json';
 
 import vA from '../images/galleryImgs/vOne.jpg';
@@ -40,124 +40,161 @@ import vAi from '../images/galleryImgs/vThirtysix.JPG';
 import vAj from '../images/galleryImgs/vThree.jpg';
 
 function GalleryContent() {
-  // state for modal
+  // Sets show state to false by default / used for showing/hiding modal
   const [show, setShow] = useState(false);
+  // Sets the active picId State to 0 by default / used for updating the id of the last clicked image, which the modal then accesses to determine what picture to show
   const [picId, setPicId] = useState(0);
 
+  // handleClose function sets show state to false to hide modal
   const handleClose = () => setShow(false);
+  // handleShow function sets show state to true to show modal
   const handleShow = () => setShow(true);
 
+  // The imageData array contains the ids and image sources of all imported images
   const imageData = [
     {
       idRef: 0,
       image: vG,
+      altText: 'Panel and conduit work open',
     },
     {
       idRef: 1,
       image: vQ,
+      altText: 'Work van with loader and generator',
     },
     {
       idRef: 2,
       image: vD,
+      altText: 'Kitchen Renovation',
     },
     {
       idRef: 3,
       image: vX,
+      altText: 'Large generac generator on concrete pad',
     },
     {
       idRef: 4,
       image: vC,
+      altText: 'Kitchen renovation with lights off',
     },
     {
       idRef: 5,
       image: vE,
+      altText: 'Kitchen renovation with lights on',
     },
     {
       idRef: 6,
       image: vJ,
+      altText: 'Eversource lineman tying in electrical service',
     },
     {
       idRef: 7,
       image: vM,
+      altText: 'Cake elevator motor and plug',
     },
     {
       idRef: 8,
       image: vU,
+      altText: 'Loader and generator on trailer',
     },
     {
       idRef: 9,
       image: vV,
+      altText: 'Loader forks over generator',
     },
     {
       idRef: 10,
       image: vZ,
+      altText: 'Prebuilt form for concrete pad',
     },
     {
       idRef: 11,
       image: vAa,
+      altText: 'Freshly poured concrete pad drying',
     },
     {
       idRef: 12,
       image: vH,
+      altText: 'Service installed but not tied in',
     },
     {
       idRef: 13,
       image: vR,
+      altText: 'Generator transfer switch open',
     },
     {
       idRef: 14,
       image: vI,
+      altText: 'Open electrical panel',
     },
     {
       idRef: 15,
       image: vS,
+      altText: 'Generator transfer switch closed',
     },
     {
       idRef: 16,
       image: vAb,
+      altText: 'Generator rear view with electrical and gas conduit',
     },
     {
       idRef: 17,
       image: vAg,
+      altText: 'Square D electrical panels',
     },
     {
       idRef: 18,
       image: vAd,
+      altText: 'Generac generator covered in snow',
     },
     {
       idRef: 19,
       image: vAe,
+      altText: 'Generac generator covered in snow and open',
     },
     {
       idRef: 20,
       image: vAc,
+      altText: 'Generac transfer switch tied to meter',
     },
     {
       idRef: 21,
       image: vL,
+      altText: 'Cake elevator gear box',
     },
     {
       idRef: 22,
       image: vK,
+      altText: 'Cake elevator hardware',
     },
     {
       idRef: 23,
       image: vN,
+      altText: 'Cake elevator hardware and electrical equipment',
     },
     {
       idRef: 24,
       image: vF,
+      altText: 'Panel and conduit work closed',
     },
     {
       idRef: 25,
       image: vP,
+      altText: 'Service van and large Generac generator',
     },
     {
       idRef: 26,
       image: vO,
+      altText: 'Small bryant generator on concrete pad',
+    },
+    {
+      idRef: 27,
+      image: vW,
+      altText: 'Large Generac generator and sub station',
     },
   ];
 
+  // Map over imageData array to retrieve the id and img src for each gallery picture
   const imageItems = imageData.map(item => (
     <Col md={6} lg={3} sm={6}>
       <Image
@@ -165,6 +202,7 @@ function GalleryContent() {
         onClick={findImgId}
         id={item.idRef}
         src={item.image}
+        alt={item.altText}
         thumbnail
         style={{
           backgroundColor: '#fbfbfb',
@@ -174,12 +212,12 @@ function GalleryContent() {
       />
     </Col>
   ));
-
+  // findImgId function sets the state picId equal to the id of the last clicked gallery img and calls the handleShow function to reveal the modal
   function findImgId(e) {
     setPicId(e.target.id);
     handleShow();
   }
-
+  // modalItems function finds the item whose id matches the state picId
   const modalItems = imageData.find(item => item.idRef == picId);
 
   return (
@@ -188,18 +226,24 @@ function GalleryContent() {
         {imageItems}
       </Row>
       <Modal
+        size="lg"
         show={show}
         centered
         onHide={handleClose}
         id="galModal"
         aria-hidden="true"
       >
-        {/* <Modal.Header className="my-0" closeButton/> */}
+        <Modal.Header className="justify-content-end my-0 p-0">
+          <button className="exitBtn m-1" onClick={handleClose}>
+            X
+          </button>
+        </Modal.Header>
         <Modal.Body className="p-1">
           <img
             className="d-block w-100"
             src={modalItems.image}
-            style={{ maxHeight: '95vh' }}
+            style={{ maxHeight: '90%' }}
+            alt={modalItems.altText}
           />
         </Modal.Body>
         {/* <Modal.Footer>
