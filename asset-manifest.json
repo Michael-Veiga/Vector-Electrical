@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/vector-electrical/static/css/main.3c86b7f7.chunk.css",
-    "main.js": "/vector-electrical/static/js/main.0dc269b8.chunk.js",
-    "main.js.map": "/vector-electrical/static/js/main.0dc269b8.chunk.js.map",
+    "main.css": "/vector-electrical/static/css/main.761e353c.chunk.css",
+    "main.js": "/vector-electrical/static/js/main.3d8991f3.chunk.js",
+    "main.js.map": "/vector-electrical/static/js/main.3d8991f3.chunk.js.map",
     "runtime-main.js": "/vector-electrical/static/js/runtime-main.aa3ef903.js",
     "runtime-main.js.map": "/vector-electrical/static/js/runtime-main.aa3ef903.js.map",
     "static/css/2.8fce87b2.chunk.css": "/vector-electrical/static/css/2.8fce87b2.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a7401e21.chunk.js.map": "/vector-electrical/static/js/2.a7401e21.chunk.js.map",
     "index.html": "/vector-electrical/index.html",
     "static/css/2.8fce87b2.chunk.css.map": "/vector-electrical/static/css/2.8fce87b2.chunk.css.map",
-    "static/css/main.3c86b7f7.chunk.css.map": "/vector-electrical/static/css/main.3c86b7f7.chunk.css.map",
+    "static/css/main.761e353c.chunk.css.map": "/vector-electrical/static/css/main.761e353c.chunk.css.map",
     "static/js/2.a7401e21.chunk.js.LICENSE.txt": "/vector-electrical/static/js/2.a7401e21.chunk.js.LICENSE.txt",
     "static/media/App.css": "/vector-electrical/static/media/newLte.641ab347.png",
     "static/media/generator.af533ed4.jpg": "/vector-electrical/static/media/generator.af533ed4.jpg",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.aa3ef903.js",
     "static/css/2.8fce87b2.chunk.css",
     "static/js/2.a7401e21.chunk.js",
-    "static/css/main.3c86b7f7.chunk.css",
-    "static/js/main.0dc269b8.chunk.js"
+    "static/css/main.761e353c.chunk.css",
+    "static/js/main.3d8991f3.chunk.js"
   ]
 }
