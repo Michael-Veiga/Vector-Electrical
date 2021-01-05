@@ -88,9 +88,9 @@ function GalleryContent() {
       altText: 'Eversource lineman tying in electrical service',
     },
     {
-      idRef: 7,
-      image: vM,
-      altText: 'Cake elevator motor and plug',
+      idRef: 14,
+      image: vI,
+      altText: 'Open electrical panel',
     },
     {
       idRef: 8,
@@ -103,34 +103,9 @@ function GalleryContent() {
       altText: 'Loader forks over generator',
     },
     {
-      idRef: 10,
-      image: vZ,
-      altText: 'Prebuilt form for concrete pad',
-    },
-    {
       idRef: 11,
       image: vAa,
       altText: 'Freshly poured concrete pad drying',
-    },
-    {
-      idRef: 12,
-      image: vH,
-      altText: 'Service installed but not tied in',
-    },
-    {
-      idRef: 13,
-      image: vR,
-      altText: 'Generator transfer switch open',
-    },
-    {
-      idRef: 14,
-      image: vI,
-      altText: 'Open electrical panel',
-    },
-    {
-      idRef: 15,
-      image: vS,
-      altText: 'Generator transfer switch closed',
     },
     {
       idRef: 16,
@@ -153,6 +128,11 @@ function GalleryContent() {
       altText: 'Generac generator covered in snow and open',
     },
     {
+      idRef: 24,
+      image: vF,
+      altText: 'Panel and conduit work closed',
+    },
+    {
       idRef: 20,
       image: vAc,
       altText: 'Generac transfer switch tied to meter',
@@ -173,11 +153,6 @@ function GalleryContent() {
       altText: 'Cake elevator hardware and electrical equipment',
     },
     {
-      idRef: 24,
-      image: vF,
-      altText: 'Panel and conduit work closed',
-    },
-    {
       idRef: 25,
       image: vP,
       altText: 'Service van and large Generac generator',
@@ -191,6 +166,16 @@ function GalleryContent() {
       idRef: 27,
       image: vW,
       altText: 'Large Generac generator and sub station',
+    },
+    {
+      idRef: 13,
+      image: vR,
+      altText: 'Generator transfer switch open',
+    },
+    {
+      idRef: 15,
+      image: vS,
+      altText: 'Generator transfer switch closed',
     },
   ];
 
