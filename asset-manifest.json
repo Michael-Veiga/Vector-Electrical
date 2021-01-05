@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vector-electrical/static/css/main.3c86b7f7.chunk.css",
-    "main.js": "/vector-electrical/static/js/main.3f1ab68a.chunk.js",
-    "main.js.map": "/vector-electrical/static/js/main.3f1ab68a.chunk.js.map",
+    "main.js": "/vector-electrical/static/js/main.0dc269b8.chunk.js",
+    "main.js.map": "/vector-electrical/static/js/main.0dc269b8.chunk.js.map",
     "runtime-main.js": "/vector-electrical/static/js/runtime-main.aa3ef903.js",
     "runtime-main.js.map": "/vector-electrical/static/js/runtime-main.aa3ef903.js.map",
     "static/css/2.8fce87b2.chunk.css": "/vector-electrical/static/css/2.8fce87b2.chunk.css",
@@ -58,6 +58,6 @@
     "static/css/2.8fce87b2.chunk.css",
     "static/js/2.a7401e21.chunk.js",
     "static/css/main.3c86b7f7.chunk.css",
-    "static/js/main.3f1ab68a.chunk.js"
+    "static/js/main.0dc269b8.chunk.js"
   ]
 }
