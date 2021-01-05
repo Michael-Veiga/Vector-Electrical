@@ -4,7 +4,7 @@ import { Table, Container } from 'react-bootstrap';
 function HomeContent() {
   return (
     <Container
-      className="homeCont h-100 justify-content-center align-self-center mt-4 mb-4"
+      className="homeCont h-100 justify-content-center align-self-center mt-4 pb-2 mb-2"
       style={{ backgroundColor: '#fcfbf7' }}
     >
       <h1
