@@ -38,6 +38,21 @@ import vAg from '../images/galleryImgs/vThirtyfour.JPG';
 import vAh from '../images/galleryImgs/vThirtyfive.JPG';
 import vAi from '../images/galleryImgs/vThirtysix.JPG';
 import vAj from '../images/galleryImgs/vThree.jpg';
+import vAk from '../images/galleryImgs/vThirtyseven.jpg';
+import vAl from '../images/galleryImgs/vFourtythree.jpg';
+import vAm from '../images/galleryImgs/vFourtytwo.jpg';
+import vAn from '../images/galleryImgs/vFiftytwo.jpg';
+import vAo from '../images/galleryImgs/vFiftythree.jpg';
+import vAp from '../images/galleryImgs/vFiftyfour.jpg';
+import vAq from '../images/galleryImgs/vFiftyone.jpg';
+import vAr from '../images/galleryImgs/vFiftyfive.jpg';
+import vAs from '../images/galleryImgs/vFourtyfive.jpg';
+import vAt from '../images/galleryImgs/vFourtyfour.jpg';
+import vAu from '../images/galleryImgs/vFourtyseven.jpg';
+import vAv from '../images/galleryImgs/vFourtysix.jpg';
+import vAw from '../images/galleryImgs/vFourty.jpeg';
+import vAx from '../images/galleryImgs/vThirtynine.jpeg';
+import vAy from '../images/galleryImgs/vFourtyone.jpeg';
 
 function GalleryContent() {
   // Sets show state to false by default / used for showing/hiding modal
@@ -128,9 +143,9 @@ function GalleryContent() {
       altText: 'Generac generator covered in snow and open',
     },
     {
-      idRef: 24,
-      image: vF,
-      altText: 'Panel and conduit work closed',
+      idRef: 31,
+      image: vAy,
+      altText: 'Gas piping',
     },
     {
       idRef: 20,
@@ -168,6 +183,11 @@ function GalleryContent() {
       altText: 'Large Generac generator and sub station',
     },
     {
+      idRef: 28,
+      image: vAk,
+      altText: 'Open panel',
+    },
+    {
       idRef: 13,
       image: vR,
       altText: 'Generator transfer switch open',
@@ -176,6 +196,76 @@ function GalleryContent() {
       idRef: 15,
       image: vS,
       altText: 'Generator transfer switch closed',
+    },
+    {
+      idRef: 35,
+      image: vAr,
+      altText: 'Electrician with recessed lighting',
+    },
+    {
+      idRef: 36,
+      image: vAj,
+      altText: 'Electricians apprentice stapling wire',
+    },
+    {
+      idRef: 29,
+      image: vAl,
+      altText: 'Trench conduit running up electrical pole',
+    },
+    {
+      idRef: 30,
+      image: vAm,
+      altText: 'Electrical conduit in trench going to street',
+    },
+    {
+      idRef: 37,
+      image: vAs,
+      altText: 'Electrical conduit in trench going to house',
+    },
+    {
+      idRef: 38,
+      image: vAt,
+      altText: 'Electrical conduit in trench running into lb',
+    },
+    {
+      idRef: 32,
+      image: vAo,
+      altText: 'Gas piping',
+    },
+    {
+      idRef: 33,
+      image: vAp,
+      altText: 'Gas piping',
+    },
+    {
+      idRef: 34,
+      image: vAq,
+      altText: 'Electrician with LED spotlight',
+    },
+    {
+      idRef: 24,
+      image: vF,
+      altText: 'Panel and conduit work closed',
+    },
+    {
+      idRef: 39,
+      image: vAu,
+      altText: 'Electrician with LED spotlight',
+    },
+    {
+      idRef: 40,
+      image: vAv,
+      altText: 'Electrician with LED spotlight',
+    },
+    {
+      idRef: 41,
+      image: vAw,
+      altText: 'Electrician with LED spotlight',
+    },
+    {
+      idRef: 42,
+      image: vAx,
+      altText: 'Electrician with LED spotlight',
     },
   ];
 
@@ -227,7 +317,7 @@ function GalleryContent() {
           <img
             className="d-block w-100"
             src={modalItems.image}
-            style={{ maxHeight: '90%' }}
+            style={{ maxHeight: '100%' }}
             alt={modalItems.altText}
           />
         </Modal.Body>

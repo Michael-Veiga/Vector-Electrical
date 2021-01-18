@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Vector Electrical and Controls Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This website was built for the Vector Electrical and Controls Corporation, using React.js, CSS, Javascript and Bootstrap.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Description](#Description)
+- [Usage](#Usage)
+- [Licenses](#Licenses)
+- [Contributors](#Contributors)
+- [Testing](#Testing)
+- [Questions](#Questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Most of this website contains static information, and is thus fairly simple to navigate. Use the navigation bar to switch through the various pages. On the services page, click on the large yellow buttons to toggle between the service descriptions and detailed lists of offered services. On the product cards (Generac / Allenbradley) click on the links to visit our trusted vendors. When visiting the gallery page, click on the various pictures to open a magnified modal of the initial image. Finally, on the contact page fill out the email contact form and click sumbit to send an email to Vector Electrical.
 
-### `npm test`
+## Link to deployed application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://michael-veiga.github.io/react-portfolio/
 
-### `npm run build`
+## Licenses
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ISC
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Michael Veiga
 
-### `npm run eject`
+## Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+No testing implemented.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Questions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Michael Veiga
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+mvee333@gmail.com
 
-## Learn More
+## Review
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is the first project that i've undertaken for an actual business. It allowed me to test and enhance my skills with React and CSS animations. It also gave me alot of experience with implementing customer input and explaining relatively complex topics simply, as to steer the client in the right direction. This project definitely tested my understanding of media queries, especially because the css animations required a lot of customization. In fact, the frame rate for the jumbotron lightning is currently not as smooth on Firefox as it is on Google Chrome, and after doing some research i've found that the way the animation is implemented is only half supported on Firefox, so an update will be required post production.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Media
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Image of deployed application](https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/reactp.JPG?raw=true)
