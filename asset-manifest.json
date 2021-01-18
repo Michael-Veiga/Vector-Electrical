@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vector-electrical/static/css/main.761e353c.chunk.css",
-    "main.js": "/vector-electrical/static/js/main.3d8991f3.chunk.js",
-    "main.js.map": "/vector-electrical/static/js/main.3d8991f3.chunk.js.map",
+    "main.js": "/vector-electrical/static/js/main.2fd664e1.chunk.js",
+    "main.js.map": "/vector-electrical/static/js/main.2fd664e1.chunk.js.map",
     "runtime-main.js": "/vector-electrical/static/js/runtime-main.aa3ef903.js",
     "runtime-main.js.map": "/vector-electrical/static/js/runtime-main.aa3ef903.js.map",
     "static/css/2.8fce87b2.chunk.css": "/vector-electrical/static/css/2.8fce87b2.chunk.css",
@@ -19,9 +19,22 @@
     "static/media/vEighteen.2c6c8ad5.jpg": "/vector-electrical/static/media/vEighteen.2c6c8ad5.jpg",
     "static/media/vEleven.6efc037b.jpg": "/vector-electrical/static/media/vEleven.6efc037b.jpg",
     "static/media/vFifteen.6e90f290.jpg": "/vector-electrical/static/media/vFifteen.6e90f290.jpg",
+    "static/media/vFiftyfive.759f822f.jpg": "/vector-electrical/static/media/vFiftyfive.759f822f.jpg",
+    "static/media/vFiftyfour.fd31c46f.jpg": "/vector-electrical/static/media/vFiftyfour.fd31c46f.jpg",
+    "static/media/vFiftyone.c767cac4.jpg": "/vector-electrical/static/media/vFiftyone.c767cac4.jpg",
+    "static/media/vFiftythree.b3896076.jpg": "/vector-electrical/static/media/vFiftythree.b3896076.jpg",
+    "static/media/vFiftytwo.f16d0b53.jpg": "/vector-electrical/static/media/vFiftytwo.f16d0b53.jpg",
     "static/media/vFive.4e8d6116.jpg": "/vector-electrical/static/media/vFive.4e8d6116.jpg",
     "static/media/vFour.f2da7269.jpg": "/vector-electrical/static/media/vFour.f2da7269.jpg",
     "static/media/vFourteen.185ac227.jpg": "/vector-electrical/static/media/vFourteen.185ac227.jpg",
+    "static/media/vFourty.c4a1d880.jpeg": "/vector-electrical/static/media/vFourty.c4a1d880.jpeg",
+    "static/media/vFourtyfive.05f109c8.jpg": "/vector-electrical/static/media/vFourtyfive.05f109c8.jpg",
+    "static/media/vFourtyfour.af2f783d.jpg": "/vector-electrical/static/media/vFourtyfour.af2f783d.jpg",
+    "static/media/vFourtyone.1844a906.jpeg": "/vector-electrical/static/media/vFourtyone.1844a906.jpeg",
+    "static/media/vFourtyseven.f0c5164a.jpg": "/vector-electrical/static/media/vFourtyseven.f0c5164a.jpg",
+    "static/media/vFourtysix.822c7518.jpg": "/vector-electrical/static/media/vFourtysix.822c7518.jpg",
+    "static/media/vFourtythree.b87ad3f6.jpg": "/vector-electrical/static/media/vFourtythree.b87ad3f6.jpg",
+    "static/media/vFourtytwo.7d847ab7.jpg": "/vector-electrical/static/media/vFourtytwo.7d847ab7.jpg",
     "static/media/vNine.3f66a9fa.jpg": "/vector-electrical/static/media/vNine.3f66a9fa.jpg",
     "static/media/vNineteen.de907db6.jpg": "/vector-electrical/static/media/vNineteen.de907db6.jpg",
     "static/media/vOne.2e09f556.jpg": "/vector-electrical/static/media/vOne.2e09f556.jpg",
@@ -34,7 +47,9 @@
     "static/media/vThirty.b32acaee.jpg": "/vector-electrical/static/media/vThirty.b32acaee.jpg",
     "static/media/vThirtyfive.66008ba9.JPG": "/vector-electrical/static/media/vThirtyfive.66008ba9.JPG",
     "static/media/vThirtyfour.084bb917.JPG": "/vector-electrical/static/media/vThirtyfour.084bb917.JPG",
+    "static/media/vThirtynine.23feb50c.jpeg": "/vector-electrical/static/media/vThirtynine.23feb50c.jpeg",
     "static/media/vThirtyone.f061c4b9.JPG": "/vector-electrical/static/media/vThirtyone.f061c4b9.JPG",
+    "static/media/vThirtyseven.02d9c268.jpg": "/vector-electrical/static/media/vThirtyseven.02d9c268.jpg",
     "static/media/vThirtysix.060102f1.JPG": "/vector-electrical/static/media/vThirtysix.060102f1.JPG",
     "static/media/vThirtythree.22a49ab0.JPG": "/vector-electrical/static/media/vThirtythree.22a49ab0.JPG",
     "static/media/vThirtytwo.e080f3ca.JPG": "/vector-electrical/static/media/vThirtytwo.e080f3ca.JPG",
@@ -58,6 +73,6 @@
     "static/css/2.8fce87b2.chunk.css",
     "static/js/2.a7401e21.chunk.js",
     "static/css/main.761e353c.chunk.css",
-    "static/js/main.3d8991f3.chunk.js"
+    "static/js/main.2fd664e1.chunk.js"
   ]
 }
