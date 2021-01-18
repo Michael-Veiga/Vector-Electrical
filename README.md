@@ -19,7 +19,7 @@ Most of this website contains static information, and is thus fairly simple to n
 
 ## Link to deployed application
 
-https://michael-veiga.github.io/react-portfolio/
+https://michael-veiga.github.io/vector-electrical/
 
 ## Licenses
 
@@ -45,4 +45,4 @@ This is the first project that i've undertaken for an actual business. It allowe
 
 ## Media
 
-![Image of deployed application]()
+![Image of deployed application](https://github.com/Michael-Veiga/vector-electrical/blob/master/src/images/gif/vectorGif.gif?raw=true)
