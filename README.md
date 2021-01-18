@@ -45,4 +45,4 @@ This is the first project that i've undertaken for an actual business. It allowe
 
 ## Media
 
-![Image of deployed application](https://github.com/Michael-Veiga/react-portfolio/blob/master/src/assets/images/reactp.JPG?raw=true)
+![Image of deployed application]()
