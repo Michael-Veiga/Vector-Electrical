@@ -2,46 +2,35 @@ import React, { useState } from 'react';
 import { Container, Col, Row, Image, Modal } from 'react-bootstrap';
 // import modalData from '../data/modals.json';
 
-import vA from '../images/galleryImgs/vOne.jpg';
-import vB from '../images/galleryImgs/vTwo.jpg';
 import vC from '../images/galleryImgs/vFour.jpg';
 import vD from '../images/galleryImgs/vFive.jpg';
 import vE from '../images/galleryImgs/vSix.jpg';
 import vF from '../images/galleryImgs/vSeven.jpg';
 import vG from '../images/galleryImgs/vEight.jpg';
-import vH from '../images/galleryImgs/vNine.jpg';
 import vI from '../images/galleryImgs/vTen.jpg';
 import vJ from '../images/galleryImgs/vEleven.jpg';
 import vK from '../images/galleryImgs/vTwelve.jpg';
 import vL from '../images/galleryImgs/vThirteen.jpg';
-import vM from '../images/galleryImgs/vFourteen.jpg';
 import vN from '../images/galleryImgs/vFifteen.jpg';
 import vO from '../images/galleryImgs/vSixteen.jpg';
 import vP from '../images/galleryImgs/vSeventeen.jpg';
 import vQ from '../images/galleryImgs/vEighteen.jpg';
 import vR from '../images/galleryImgs/vNineteen.jpg';
 import vS from '../images/galleryImgs/vTwenty.jpg';
-import vT from '../images/galleryImgs/vTwentyone.jpg';
 import vU from '../images/galleryImgs/vTwentytwo.jpg';
 import vV from '../images/galleryImgs/vTwentythree.jpg';
 import vW from '../images/galleryImgs/vTwentyfour.jpg';
 import vX from '../images/galleryImgs/vTwentyfive.jpg';
-import vY from '../images/galleryImgs/vTwentysix.jpg';
-import vZ from '../images/galleryImgs/vTwentyseven.jpg';
 import vAa from '../images/galleryImgs/vTwentyeight.jpg';
 import vAb from '../images/galleryImgs/vTwentynine.jpg';
 import vAc from '../images/galleryImgs/vThirty.jpg';
 import vAd from '../images/galleryImgs/vThirtyone.JPG';
 import vAe from '../images/galleryImgs/vThirtytwo.JPG';
-import vAf from '../images/galleryImgs/vThirtythree.JPG';
 import vAg from '../images/galleryImgs/vThirtyfour.JPG';
-import vAh from '../images/galleryImgs/vThirtyfive.JPG';
-import vAi from '../images/galleryImgs/vThirtysix.JPG';
 import vAj from '../images/galleryImgs/vThree.jpg';
 import vAk from '../images/galleryImgs/vThirtyseven.jpg';
 import vAl from '../images/galleryImgs/vFourtythree.jpg';
 import vAm from '../images/galleryImgs/vFourtytwo.jpg';
-import vAn from '../images/galleryImgs/vFiftytwo.jpg';
 import vAo from '../images/galleryImgs/vFiftythree.jpg';
 import vAp from '../images/galleryImgs/vFiftyfour.jpg';
 import vAq from '../images/galleryImgs/vFiftyone.jpg';
@@ -271,11 +260,11 @@ function GalleryContent() {
 
   // Map over imageData array to retrieve the id and img src for each gallery picture
   const imageItems = imageData.map(item => (
-    <Col md={6} lg={3} sm={6}>
+    <Col key={item.idRef} md={6} lg={3} sm={6}>
       <Image
+        id={item.idRef}
         className="shadow"
         onClick={findImgId}
-        id={item.idRef}
         src={item.image}
         alt={item.altText}
         thumbnail

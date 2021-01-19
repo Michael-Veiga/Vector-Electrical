@@ -19,31 +19,31 @@ function App() {
         <JumboImg />
         <Nav className="nav justify-content-center" activeKey="/">
           <Nav.Item>
-            <Nav.Link className="navLink" as={Link} exact to="/">
+            <Nav.Link className="navLink" as={Link} to="/">
               Home
             </Nav.Link>
           </Nav.Item>
           <p className="divider">|</p>
           <Nav.Item>
-            <Nav.Link className="navLink" as={Link} exact to="/about">
+            <Nav.Link className="navLink" as={Link} to="/about">
               About
             </Nav.Link>
           </Nav.Item>
           <p className="divider">|</p>
           <Nav.Item>
-            <Nav.Link className="navLink" as={Link} exact to="/services">
+            <Nav.Link className="navLink" as={Link} to="/services">
               Services
             </Nav.Link>
           </Nav.Item>
           <p className="divider">|</p>
           <Nav.Item>
-            <Nav.Link className="navLink" as={Link} exact to="/gallery">
+            <Nav.Link className="navLink" as={Link} to="/gallery">
               Gallery
             </Nav.Link>
           </Nav.Item>
           <p className="divider">|</p>
           <Nav.Item>
-            <Nav.Link className="navLink" as={Link} exact to="/contact">
+            <Nav.Link className="navLink" as={Link} to="/contact">
               Contact
             </Nav.Link>
           </Nav.Item>
