@@ -153,7 +153,7 @@ class ServicesRes extends React.Component {
               </ListGroup.Item>
             </ListGroup>
             <button className="customBtn mt-2" onClick={this.toggleDisplay}>
-              List of Residential Services
+              Summary of Residential Services
             </button>
           </Card.Body>
         </Card>
