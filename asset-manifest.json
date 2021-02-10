@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.511ea790.chunk.css",
+    "main.css": "/static/css/main.be3a5471.chunk.css",
     "main.js": "/static/js/main.7238ac5e.chunk.js",
     "main.js.map": "/static/js/main.7238ac5e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3ca801fd.js",
@@ -10,7 +10,7 @@
     "static/js/2.8bcef286.chunk.js.map": "/static/js/2.8bcef286.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.8fce87b2.chunk.css.map": "/static/css/2.8fce87b2.chunk.css.map",
-    "static/css/main.511ea790.chunk.css.map": "/static/css/main.511ea790.chunk.css.map",
+    "static/css/main.be3a5471.chunk.css.map": "/static/css/main.be3a5471.chunk.css.map",
     "static/js/2.8bcef286.chunk.js.LICENSE.txt": "/static/js/2.8bcef286.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/newLte.641ab347.png",
     "static/media/generator.af533ed4.jpg": "/static/media/generator.af533ed4.jpg",
@@ -61,7 +61,7 @@
     "static/js/runtime-main.3ca801fd.js",
     "static/css/2.8fce87b2.chunk.css",
     "static/js/2.8bcef286.chunk.js",
-    "static/css/main.511ea790.chunk.css",
+    "static/css/main.be3a5471.chunk.css",
     "static/js/main.7238ac5e.chunk.js"
   ]
 }
