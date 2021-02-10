@@ -98,6 +98,7 @@ body {
   height: 100%;
   width: 41rem;
   max-width: 41rem;
+  filter: drop-shadow(7px 3px 4px #bfa552);
 }
 
 @media (max-width: 1920px) {
