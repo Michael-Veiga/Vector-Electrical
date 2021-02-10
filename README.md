@@ -19,7 +19,7 @@ Most of this website contains static information, and is thus fairly simple to n
 
 ## Link to deployed application
 
-https://michael-veiga.github.io/vector-electrical/
+https://vectornh.com/
 
 ## Licenses
 
