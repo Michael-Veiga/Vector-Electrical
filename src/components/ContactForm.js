@@ -59,7 +59,7 @@ class ContactForm extends Component {
       <div>
         <ToastContainer />
         <Form
-          className="cForm py-3"
+          className="cForm py-3 mt-2"
           onSubmit={this.handleSubmit.bind(this)}
           id="contact-form"
           style={{ margin: '0 auto', width: '100%' }}

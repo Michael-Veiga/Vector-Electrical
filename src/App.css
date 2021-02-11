@@ -80,6 +80,10 @@ body {
   /* border-top: 2px solid #bfa552; */
 }
 
+.footer {
+  margin-top: 60px;
+}
+
 .divider {
   margin: 0;
   padding-top: 6px;

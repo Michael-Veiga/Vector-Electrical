@@ -5,7 +5,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
-    <footer className="mt-5">
+    <footer className="footer">
       <Container fluid={true}>
         <Row className="foot-effect p-1">
           <Col className="p-0 d-flex justify-content-start" xs={1}>
