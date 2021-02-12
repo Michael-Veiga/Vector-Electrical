@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Switch, BrowserRouter as Router, Link } from 'react-router-dom';
 
 import { Nav } from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactGa from 'react-ga';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -13,6 +14,12 @@ import Contact from './pages/Contact';
 import JumboImg from './components/JumboImg';
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize(process.env.REACT_APP_ANALYTICS);
+
+    // to report page view
+    ReactGa.pageview(window.location.pathname);
+  }, []);
   return (
     <div className="App">
       <Router basename="/vector-electrical">
