@@ -22,7 +22,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Router basename="/vector-electrical">
+      <Router>
         <JumboImg />
         <Nav className="nav justify-content-center" activeKey="/">
           <Nav.Item>
