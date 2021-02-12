@@ -15,7 +15,7 @@ import JumboImg from './components/JumboImg';
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize(process.env.REACT_APP_ANALYTICS);
+    ReactGa.initialize('UA-189625087-1');
 
     // to report page view
     ReactGa.pageview(window.location.pathname);
