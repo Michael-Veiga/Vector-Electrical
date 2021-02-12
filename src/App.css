@@ -501,6 +501,7 @@ body {
   background-color: #fcfbf7;
   border-radius: 0 0 0.25rem 0.25rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.623) !important;
+  text-indent: 1.5em;
 }
 
 .svcCardTitle {
@@ -622,6 +623,7 @@ body {
 
 .parCardBody {
   background-color: #fcfbf7;
+  text-indent: 1.5em;
 }
 
 .prodTitle {

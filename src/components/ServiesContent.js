@@ -20,7 +20,7 @@ function ServicesContent() {
           Vector Electrical Services
         </Card.Header>
         <Card.Body className="svcHeaderBody">
-          <p>
+          <p className="text-left" style={{ textIndent: '1.5em' }}>
             Vector Electrical and Controls Corporation strives to be your full
             service electrical contractor. Whether its at home, at the office,
             or your industrial establishment, you can count on Vector to get it

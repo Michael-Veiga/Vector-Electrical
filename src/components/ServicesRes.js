@@ -30,7 +30,10 @@ class ServicesRes extends React.Component {
             Residential Services
           </Card.Header>
           <Card.Body className="svcCardBody d-flex flex-column">
-            <Card.Text className="mb-0">
+            <Card.Text
+              className="mb-0 text-left"
+              style={{ textIndent: '1.5em' }}
+            >
               Vector Electrical and Controls Corporation has a long reputation
               of designing/building first quality electrical systems for the
               residential market. Our customers and other contractors alike are

@@ -35,7 +35,7 @@ function HomeContent() {
       <p>
         Please see our service areas and associated licensing numbers below.
       </p>
-      <Table className="mt-4">
+      <Table responsive="sm" className="mt-4">
         <thead>
           <tr>
             <th

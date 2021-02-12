@@ -30,7 +30,10 @@ class ServicesInd extends React.Component {
             Industrial Services
           </Card.Header>
           <Card.Body className="svcCardBody d-flex flex-column">
-            <Card.Text className="mb-0">
+            <Card.Text
+              className="mb-0 text-left"
+              style={{ textIndent: '1.5em' }}
+            >
               Vector Electrical and Controls Corporation started out in the
               industrial market place and quickly became one of the only
               industrial control company's in the North East. Vector specialized

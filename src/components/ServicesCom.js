@@ -30,7 +30,10 @@ class ServicesCom extends React.Component {
             Commercial Services
           </Card.Header>
           <Card.Body className="svcCardBody d-flex flex-column">
-            <Card.Text className="mb-0">
+            <Card.Text
+              className="mb-0 text-left"
+              style={{ textIndent: '1.5em' }}
+            >
               Vector Electrical and Controls Corporation is in the forefront of
               design build applications for the commercial and light industrial
               markets. From Store fronts to data centers, Vector has the know
