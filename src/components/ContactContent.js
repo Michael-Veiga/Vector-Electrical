@@ -28,7 +28,10 @@ function ContactContent() {
             Otherwise, you can send us an email using the following contact
             form.
           </Card.Text>
-          <hr className="mx-3" style={{ borderTop: '1px solid #8c1414' }} />
+          <hr
+            className="mx-3"
+            style={{ borderTop: '1px solid #8c1414', opacity: '1' }}
+          />
           <Row className="justify-content-center">
             <Col md={3}>
               <h5 style={{ color: '#bfa552' }}>Contact Information:</h5>

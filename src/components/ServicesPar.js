@@ -12,17 +12,14 @@ function ServicesPar() {
         style={{ border: '2px solid #bfa552', backgroundColor: '#fcfbf7' }}
       >
         <Row className="no-gutters">
-          <Col md={3}>
+          <Col lg={3} md={4}>
             <Card.Img variant="card-img" className="parCardImg" src={gen} />
           </Col>
-          <Col md={9}>
+          <Col lg={9} md={8}>
             <Card.Title className="prodTitle mt-3">
               Generac Generators
             </Card.Title>
-            <hr
-              className="my-2 mr-3"
-              style={{ borderTop: '2px solid #8c1414' }}
-            />
+            <hr id="breakStyle" className="my-2 mx-3" />
             <Card.Body className="parCardBody py-0 text-center">
               <Card.Text className="mb-2 text-left">
                 We Install Generac Generators and are a certified repair and
@@ -46,17 +43,14 @@ function ServicesPar() {
         style={{ border: '2px solid #bfa552', backgroundColor: '#fcfbf7' }}
       >
         <Row className="no-gutters">
-          <Col md={3}>
+          <Col lg={3} md={4}>
             <Card.Img variant="card-img" className="parCardImg" src={plc} />
           </Col>
-          <Col md={9}>
+          <Col lg={9} md={8}>
             <Card.Title className="prodTitle mt-3">
               Allen Bradley Control Systems
             </Card.Title>
-            <hr
-              className="my-2 mr-3"
-              style={{ borderTop: '2px solid #8c1414' }}
-            />
+            <hr id="breakStyle" className="my-2 mx-3" />
             <Card.Body className="parCardBody py-0 text-center">
               <Card.Text className="mb-2 text-left">
                 We install Allen Bradley Control systems . Please visit Allen

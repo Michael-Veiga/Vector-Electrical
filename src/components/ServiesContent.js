@@ -35,10 +35,10 @@ function ServicesContent() {
         <Col xl={4} lg={12} md={12} sm={12} xs={12}>
           <ServicesRes />
         </Col>
-        <Col className="colQuery" xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Col id="colQuery" xl={4} lg={12} md={12} sm={12} xs={12}>
           <ServicesCom />
         </Col>
-        <Col className="colQuery" xl={4} lg={12} md={12} sm={12} xs={12}>
+        <Col id="colQuery" xl={4} lg={12} md={12} sm={12} xs={12}>
           <ServicesInd />
         </Col>
       </Row>

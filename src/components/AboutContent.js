@@ -14,7 +14,7 @@ function AboutContent() {
         >
           About Vector Electrical
         </Card.Header>
-        <Card.Body className="abCardBody text-left">
+        <Card.Body className="abCardBody text-start">
           <p>
             Vector Electrical and Controls Corporation was established in 1989
             finding a niche in the industrial automation market. We now
@@ -53,8 +53,8 @@ function AboutContent() {
         >
           Testimonials
         </Card.Title>
-        <hr className="my-0 mx-3" style={{ borderTop: '2px solid #8c1414' }} />
-        <Card.Body className=" text-left">
+        <hr id="breakStyle" className="my-0 mx-3" />
+        <Card.Body className=" text-start">
           <p>
             Vector recently installed a new 45 KW generator. Tory came to do the
             initial estimate which was reasonable compared to all the other

@@ -19,7 +19,7 @@ class ServicesCom extends React.Component {
   render() {
     if (this.state.display) {
       return (
-        <Card className="svcQueryCard h-100 border-0">
+        <Card className="svcQueryCard border-0">
           <Card.Header
             className="svcCardHeader"
             style={{
@@ -29,22 +29,25 @@ class ServicesCom extends React.Component {
           >
             Commercial Services
           </Card.Header>
-          <Card.Body className="svcCardBody d-flex flex-column">
-            <Card.Text
-              className="mb-0 text-left"
-              style={{ textIndent: '1.5em' }}
-            >
-              Vector Electrical and Controls Corporation is in the forefront of
-              design build applications for the commercial and light industrial
-              markets. From Store fronts to data centers, Vector has the know
-              how to get it done on time and on budget. With over thirty years
-              of experience, there isn't much we havent done. From mom and pop
-              shops to multi conglomerate corporations, let us show you how
-              vector electrical is bringing power to the people. Give us try and
-              you will be a customer for life. This is a small sampling of the
-              services that we can provide you.
+          <Card.Body id="svcCardBody" className="d-flex flex-column">
+            <Card.Text className="text-start" style={{ textIndent: '1.5em' }}>
+              We are in the forefront of design build applications for the
+              commercial and light industrial markets. From Store fronts to data
+              centers, Vector has the know how to get it done on time and on
+              budget.
             </Card.Text>
-            <button className="customBtn mt-2" onClick={this.toggleDisplay}>
+            <Card.Text className="text-start">
+              With over thirty years of experience, there isn't much we havent
+              done. From mom and pop shops to national corporations, let us show
+              you how vector electrical is bringing power to the people. Give us
+              try and you will be a customer for life. This is a small sampling
+              of the services that we can provide you.
+            </Card.Text>
+            <button
+              id="customBtn"
+              className="mt-auto"
+              onClick={this.toggleDisplay}
+            >
               List of Commercial Services
             </button>
           </Card.Body>
@@ -62,7 +65,7 @@ class ServicesCom extends React.Component {
           >
             Commercial Services
           </Card.Header>
-          <Card.Body className="svcCardBody d-flex flex-column">
+          <Card.Body id="svcCardBody" className="d-flex flex-column">
             <ListGroup className="listG list-group-flush">
               <ListGroup.Item style={{ backgroundColor: '#fcfbf7' }}>
                 Fire alarm systems
@@ -128,7 +131,11 @@ class ServicesCom extends React.Component {
                 Fiber optics and termination
               </ListGroup.Item>
             </ListGroup>
-            <button className="customBtn mt-2" onClick={this.toggleDisplay}>
+            <button
+              id="customBtn"
+              className="mt-auto"
+              onClick={this.toggleDisplay}
+            >
               Summary of Commercial Services
             </button>
           </Card.Body>

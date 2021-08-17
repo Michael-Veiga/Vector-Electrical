@@ -19,7 +19,7 @@ class ServicesInd extends React.Component {
   render() {
     if (this.state.display) {
       return (
-        <Card className="svcQueryCard h-100 border-0">
+        <Card className="svcQueryCard border-0">
           <Card.Header
             className="svcCardHeader"
             style={{
@@ -29,22 +29,25 @@ class ServicesInd extends React.Component {
           >
             Industrial Services
           </Card.Header>
-          <Card.Body className="svcCardBody d-flex flex-column">
-            <Card.Text
-              className="mb-0 text-left"
-              style={{ textIndent: '1.5em' }}
-            >
-              Vector Electrical and Controls Corporation started out in the
-              industrial market place and quickly became one of the only
-              industrial control company's in the North East. Vector specialized
-              in all types of industrial automation and industrial controls for
-              the manufacturing, pharmaceutical and bio tech industries. Our
-              company focus has expanded to all aspects of the industrial market
-              place from control systems to entire facility build outs. Here's a
-              small sampling of what we can do for you. Give us a try and become
-              a customer for life.
+          <Card.Body id="svcCardBody" className="d-flex flex-column">
+            <Card.Text className="text-start" style={{ textIndent: '1.5em' }}>
+              We started out in the industrial market place and quickly became
+              one of the only industrial control company's in the North East.
+              Vector specialized in all types of industrial automation and
+              industrial controls for the manufacturing, pharmaceutical and bio
+              tech industries.
             </Card.Text>
-            <button className="customBtn mt-2" onClick={this.toggleDisplay}>
+            <Card.Text className="text-start">
+              Our company focus has expanded to all aspects of the industrial
+              market place from control systems to entire facility build outs.
+              Here's a small sampling of what we can do for you. Give us a try
+              and become a customer for life.
+            </Card.Text>
+            <button
+              id="customBtn"
+              className="mt-auto"
+              onClick={this.toggleDisplay}
+            >
               List of Industrial Services
             </button>
           </Card.Body>
@@ -62,7 +65,7 @@ class ServicesInd extends React.Component {
           >
             Industrial Services
           </Card.Header>
-          <Card.Body className="svcCardBody d-flex flex-column">
+          <Card.Body id="svcCardBody" className="d-flex flex-column">
             <ListGroup className="listG list-group-flush">
               <ListGroup.Item style={{ backgroundColor: '#fcfbf7' }}>
                 Industrial controls and automation
@@ -125,7 +128,11 @@ class ServicesInd extends React.Component {
                 Manufacturing environments
               </ListGroup.Item>
             </ListGroup>
-            <button className="customBtn mt-2" onClick={this.toggleDisplay}>
+            <button
+              id="customBtn"
+              className="mt-auto"
+              onClick={this.toggleDisplay}
+            >
               Summary of Industrial Services
             </button>
           </Card.Body>

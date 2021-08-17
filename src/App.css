@@ -4,16 +4,10 @@
 .App {
   text-align: center;
   /* background-color: #b4b7ba; */
-  background: linear-gradient(
-    90deg,
-    RGB(39, 58, 66) 0%,
-    #b4b7ba 25%,
-    RGB(39, 58, 66) 50%,
-    #b4b7ba 75%,
-    RGB(39, 58, 66) 100%
-  );
   overflow: hidden;
   font-family: 'Castoro', serif;
+  height: 100%;
+  background-size: cover;
 }
 
 html {
@@ -22,6 +16,14 @@ html {
 
 body {
   height: 100%;
+  background: linear-gradient(
+    90deg,
+    RGB(39, 58, 66) 0%,
+    #b4b7ba 25%,
+    RGB(39, 58, 66) 50%,
+    #b4b7ba 75%,
+    RGB(39, 58, 66) 100%
+  );
 }
 
 @keyframes App-logo-spin {
@@ -65,14 +67,15 @@ body {
   }
 }
 
-.navLink {
+#navLink {
   font-weight: bold;
   color: #f0f1f1;
   padding-left: 10px;
   padding-right: 10px;
+  border-bottom: 0px solid #bfa552;
 }
 
-.navLink:hover {
+#navLink:hover {
   transition: all 0.2 ease-in-out;
   transform: scale(1.1);
   color: #f0f1f1;
@@ -81,7 +84,7 @@ body {
 }
 
 .footer {
-  margin-top: 60px;
+  margin-top: 68px;
 }
 
 .divider {
@@ -99,8 +102,8 @@ body {
 }
 
 .logo {
-  height: 100%;
-  width: 41rem;
+  height: 9em;
+  width: 41em;
   max-width: 41rem;
   filter: drop-shadow(7px 3px 4px #bfa552);
 }
@@ -126,6 +129,13 @@ body {
   }
 }
 
+@media (max-width: 1280px) {
+  .logo {
+    max-width: 40em;
+    height: 9em;
+  }
+}
+
 @media (max-width: 1024px) {
   .logo {
     max-width: 100%;
@@ -137,6 +147,13 @@ body {
   .logo {
     max-width: 90%;
     height: 85%;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    max-width: 65%;
+    height: 100%;
   }
 }
 
@@ -200,6 +217,12 @@ body {
 @media (max-width: 1024px) {
   .logoTwo {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .logoTwo {
+    font-size: 1.8rem;
   }
 }
 
@@ -504,6 +527,14 @@ body {
   text-indent: 1.5em;
 }
 
+#breakStyle {
+  /* border-top: 2px solid #8c1414; */
+  height: 2px;
+  color: #8c1414;
+  border-width: 0;
+  opacity: 1;
+}
+
 .svcCardTitle {
   border: 2px solid #bfa552;
   color: #bfa552;
@@ -525,26 +556,10 @@ body {
   border-radius: 0 0 0.25rem 0.25rem;
 }
 
-.svcCardBody {
+#svcCardBody {
   border: 2px solid#bfa552;
-  max-height: 27rem;
-  min-height: 27rem;
   background-color: #fcfbf7;
   border-radius: 0 0 0.25rem 0.25rem;
-}
-
-@media (max-width: 375px) {
-  .svcCardBody {
-    max-height: 34rem;
-    min-height: 34rem;
-  }
-}
-
-@media (max-width: 280px) {
-  .svcCardBody {
-    max-height: 40rem;
-    min-height: 40rem;
-  }
 }
 
 .svcCard {
@@ -556,13 +571,13 @@ body {
 }
 
 @media (max-width: 1199px) {
-  .colQuery {
+  #colQuery {
     margin-top: 1.5rem;
   }
 }
 
 @media (max-width: 992px) {
-  .colQuery {
+  #colQuery {
     margin-top: 1.5rem;
   }
 }
@@ -592,7 +607,7 @@ body {
   background-color: transparent;
 }
 
-.customBtn {
+#customBtn {
   color: rgb(148, 10, 10);
   border: 2px solid #8c1414;
   background-color: #bfa552;
@@ -605,7 +620,7 @@ body {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.customBtn:hover {
+#customBtn:hover {
   color: #fbfbfb;
   background-color: rgb(148, 10, 10);
   border-color: #daa520;
@@ -775,7 +790,7 @@ body {
   height: 100%;
 }
 
-.homeCont {
+#homeCont {
   border: 2px solid #bfa552;
   border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.623) !important;

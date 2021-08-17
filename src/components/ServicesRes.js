@@ -29,22 +29,25 @@ class ServicesRes extends React.Component {
           >
             Residential Services
           </Card.Header>
-          <Card.Body className="svcCardBody d-flex flex-column">
-            <Card.Text
-              className="mb-0 text-left"
-              style={{ textIndent: '1.5em' }}
-            >
-              Vector Electrical and Controls Corporation has a long reputation
-              of designing/building first quality electrical systems for the
-              residential market. Our customers and other contractors alike are
-              constantly taken by our attention to detail and innovative
-              approach towards all that we do. We hope that you can put us to
-              the test and experience first hand what the Vector experience
-              means. Included is list of some of our many services designed for
-              the residential market. If you can't find what your looking for,
-              not to worry, we do it all and are just a phone call away.
+          <Card.Body id="svcCardBody" className="d-flex flex-column">
+            <Card.Text className="text-start" style={{ textIndent: '1.5em' }}>
+              We have a long reputation of designing/building quality electrical
+              systems for the residential market. Our customers and other
+              contractors alike are constantly taken by our attention to detail
+              and innovative approach towards all that we do.
             </Card.Text>
-            <button className="customBtn mt-2" onClick={this.toggleDisplay}>
+            <Card.Text className="text-start">
+              We hope that you can put us to the test and experience first hand
+              what the Vector experience means. Included is list of some of our
+              many services designed for the residential market. If you can't
+              find what your looking for, not to worry, we do it all and are
+              just a phone call away.
+            </Card.Text>
+            <button
+              id="customBtn"
+              className="mt-auto"
+              onClick={this.toggleDisplay}
+            >
               List of Residential Services
             </button>
           </Card.Body>
@@ -62,7 +65,7 @@ class ServicesRes extends React.Component {
           >
             Residential Services
           </Card.Header>
-          <Card.Body className="svcCardBody d-flex flex-column">
+          <Card.Body id="svcCardBody" className="d-flex flex-column">
             <ListGroup className="listG list-group-flush">
               <ListGroup.Item style={{ backgroundColor: '#fcfbf7' }}>
                 Air conditioning wiring
@@ -155,7 +158,11 @@ class ServicesRes extends React.Component {
                 Phone wiring
               </ListGroup.Item>
             </ListGroup>
-            <button className="customBtn mt-2" onClick={this.toggleDisplay}>
+            <button
+              id="customBtn"
+              className="mt-auto"
+              onClick={this.toggleDisplay}
+            >
               Summary of Residential Services
             </button>
           </Card.Body>

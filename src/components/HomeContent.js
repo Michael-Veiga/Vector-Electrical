@@ -4,7 +4,8 @@ import { Table, Container } from 'react-bootstrap';
 function HomeContent() {
   return (
     <Container
-      className="homeCont h-100 justify-content-center align-self-center mt-4 pb-2 mb-2"
+      id="homeCont"
+      className="h-100 justify-content-center align-self-center mt-4 pb-2 mb-2"
       style={{ backgroundColor: '#fcfbf7' }}
     >
       <h1
@@ -18,7 +19,7 @@ function HomeContent() {
       >
         Welcome to Vector Electrical and Controls Corp.
       </h1>
-      <hr className="" style={{ borderTop: '2px solid #8c1414' }} />
+      <hr id="breakStyle" />
       <p>
         We know that you have a choice of electrical contractors in the area and
         we appreciate your consideration. Our hope is that you'll feel confident
@@ -42,6 +43,7 @@ function HomeContent() {
               style={{
                 borderColor: '#8c1414',
                 borderTop: '2px solid #8c1414',
+                borderBottom: '2px solid #8c1414',
                 color: '#bfa552',
                 fontSize: '1.25rem',
               }}
@@ -52,6 +54,7 @@ function HomeContent() {
               style={{
                 borderColor: '#8c1414',
                 borderTop: '2px solid #8c1414',
+                borderBottom: '2px solid #8c1414',
                 color: '#bfa552',
                 fontSize: '1.25rem',
               }}
@@ -62,6 +65,7 @@ function HomeContent() {
               style={{
                 borderColor: '#8c1414',
                 borderTop: '2px solid #8c1414',
+                borderBottom: '2px solid #8c1414',
                 color: '#bfa552',
                 fontSize: '1.25rem',
               }}

@@ -29,11 +29,11 @@ class ContactForm extends Component {
         process.env.REACT_APP_ES_USER
       )
       .then(
-        result => {
+        (result) => {
           console.log(result.text);
           toast.success('Message Sent');
         },
-        error => {
+        (error) => {
           console.log(error.text);
           toast.error('Error Delivering Message');
         }
@@ -65,9 +65,9 @@ class ContactForm extends Component {
           style={{ margin: '0 auto', width: '100%' }}
         >
           <h4 className="cFormTitle text-center">Email Contact Form</h4>
-          <hr className="mx-5" style={{ borderTop: '2px solid #8c1414' }} />
+          <hr id="breakStyle" className="mx-5" />
 
-          <Form.Group className="px-5" controlId="formBasicName">
+          <Form.Group className="px-5 text-start" controlId="formBasicName">
             <Form.Label className="">Full Name</Form.Label>
             <Form.Control
               required
@@ -79,7 +79,10 @@ class ContactForm extends Component {
             />
           </Form.Group>
 
-          <Form.Group className="px-5" controlId="formBasicEmail">
+          <Form.Group
+            className="px-5 pt-2 text-start"
+            controlId="formBasicEmail"
+          >
             <Form.Label className="">Email</Form.Label>
             <Form.Control
               required
@@ -91,7 +94,10 @@ class ContactForm extends Component {
             />
           </Form.Group>
 
-          <Form.Group className="px-5" controlId="formBasicSubject">
+          <Form.Group
+            className="px-5 pt-2 text-start"
+            controlId="formBasicSubject"
+          >
             <Form.Label className="">Subject</Form.Label>
             <Form.Control
               required
@@ -103,7 +109,10 @@ class ContactForm extends Component {
             />
           </Form.Group>
 
-          <Form.Group className="px-5" controlId="formBasicMessage">
+          <Form.Group
+            className="px-5 pt-2 text-start"
+            controlId="formBasicMessage"
+          >
             <Form.Label className="">Message</Form.Label>
             <Form.Control
               required
@@ -117,9 +126,11 @@ class ContactForm extends Component {
           </Form.Group>
 
           <button
-            className="customBtn d-inline-block px-5 ml-5"
+            id="customBtn"
+            className="d-flex align-items-start mt-4 px-5"
             variant="primary"
             type="submit"
+            style={{ marginLeft: '50px' }}
           >
             Send Message
           </button>
